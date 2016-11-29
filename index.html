@@ -20,6 +20,12 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+     <style>
+       #map {
+        height: 200px;
+        width: 100%;
+       }
+    </style>
   </head>
   <body>
       
@@ -221,6 +227,48 @@
     </div>  
 </div>
 </div>          
+<footer style="padding-top:20px;">
+<div class="col-foot" style="padding-top:20px;">
+      <div class="row">
+
+
+        <div class="col-md-4 ft-right" style="text-align:center;" >
+          <h4><b>UNSB</b></h4>
+          <h4>Main Branch Address</h4>
+                  <p>unjha gaam,<br>gujarat</p>  
+        </div>
+
+        <div class="col-md-3 ft-right">
+            <h4>Google Map</h4>
+            <div id="map"></div>
+
+            <script>
+             function initMap() {
+             var uluru = {lat: 23.8063, lng: 72.3844};
+              var map = new google.maps.Map(document.getElementById('map'), {
+               zoom: 4,
+              center: uluru
+             });
+             var marker = new google.maps.Marker({
+             position: uluru,
+             map: map
+             });
+             }
+             </script>
+           <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpZ_Q6TVPyBIWLMCl3Wjp_SWlmNcpSv5I&callback=initMap">
+            </script>
+
+                          
+       </div>
+
+      <div class="col-md-3 col-md-offset-2 ft-left">
+            <a href="/team" class="btn btn-success btn-large" >DEVELOPERS</a><br>
+            <a href="#0" class="cd-top">Top</a>
+      </div>
+      </div>
+  </div>
+</footer>
       
       
 <!--End of image block-->
