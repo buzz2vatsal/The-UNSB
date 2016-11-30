@@ -1,0 +1,139 @@
+html, body{
+    background-color: #EEEEEE;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    height: auto;
+    background-color: #444;
+}
+
+.navbar-collapse{
+    padding-right: 20px;   
+}
+
+.btn-primary{
+    transition: all 0.3s ease 0s;
+    border: 1px solid black;
+}
+
+.logo{
+    height: 25px;
+    width: inherit;
+    
+}
+.nav{
+    margin: 0;
+    display: inline-block;
+}
+
+.intro-block{
+    background: url("../images/background.jpg");
+    padding: 30px 15px 40px;
+}
+
+.text-muted{
+    color: darkred;
+    font-weight:100;
+}
+
+.text-success{
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.tpad{
+    padding-top: 25px;
+}
+
+.btn-block{
+    background-color: darkred; 
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-block:hover { 
+    border-color: darkslategray; 
+    background-color: palevioletred; 
+    border-color: #357ebd;
+    color: #000;
+}
+
+.btn-block:active {
+  background-color: darkgoldenrod;
+}
+
+.carouselInfo{
+    color: #fff;
+}
+
+.carousel-caption{
+    z-index: 4;
+
+}
+
+.carousel-inner > .item > img{
+    width: 660px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel-inner > .item{
+    width: 660px;
+    height: 400px;
+}
+
+.form{
+    text-align: left;
+    align-content: center;
+}
+
+.form button{
+    align-content: center;
+    align-items: center;
+}
+
+.img{
+    padding-top: 30px;
+    height: relative;
+    padding-bottom: 10px;
+}
+
+.panel{
+    background: white;
+    transition: all 0.4s ease 0s;
+}
+
+.panel:hover{
+    border: 2px solid darkred;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+}
+
+.whitecontent{
+    color: white;
+}
+
+#map {
+        height: 250px;
+        width: 100%;
+}
+
+.ftr{
+    background: url("../images/background-new.jpg") repeat;
+    padding: 40px 0 40px 0;
+}
+
+.ftr address, .ftr a, .ftr p{
+    color: #fff;
+}
+
+.ft_space{
+    padding: 0 10px;
+}
