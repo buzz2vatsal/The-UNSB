@@ -91,50 +91,8 @@ ul a{
   background-color: darkgoldenrod;
 }
 
-.carouselInfo{
-    color: #fff;
-}
-
-.carousel-caption{
-    z-index: 4;
-
-}
-
-.carousel-inner > .item > img{
-    width: inherit;
-    height: 380px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.carousel-inner > .item{
-    width: inherit;
-    height: inherit;
-}
-
-.marquee-up{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
-    transition: all 0.4s ease 0s;
-}
-
-.marquee-up:hover{
-    box-shadow: rgba(0, 0, 0, 0.5) 2px 5px 5px 2px;
-}
-
-.img{
-    padding-top: 30px;
-    height: relative;
-    padding-bottom: 10px;
-}
-
-.panel{
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
-    transition: all 0.4s ease 0s;
-}
-
-.panel:hover{
-    box-shadow: rgba(0, 153, 230, 0.5) 2px 5px 5px 2px;
+.locator{
+    margin-bottom: 20px;
 }
 
 .fa-icon{
@@ -159,10 +117,6 @@ ul a{
     box-shadow: rgba(0,0,0,0.5) 2px 5px 5px 2px;
 }
 
-#map {
-        height: 250px;
-        width: 100%;
-}
 
 .ftr{
     position: relative;
@@ -176,6 +130,11 @@ ul a{
 
 .ft_space{
     padding: 0 10px;
+}
+
+#map {
+        height: 250px;
+        width: 100%;
 }
 
 .myPanel{

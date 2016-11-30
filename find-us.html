@@ -10,8 +10,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/login.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">  
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/find-us.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
     <link rel="shortcut icon" type="image/png" href="images/favicon.jpg">
 
@@ -36,6 +36,10 @@
                     </h5>
             </div>
             
+            <div class="col-md-6 col-sm-5">
+                    <a href="emp_login.html"><div class="btn btn-primary" style="width: 200px; height: 35px; float:right; ">Employee Login</div></a>
+            </div>
+            
         </div>
       </div>
 
@@ -50,48 +54,110 @@
                         </div>
 
                         <div class = "col-md-7 col-sm-7">
-                            <h1 style="color: white;">Welcome to The UNSB Ltd!</h1>
+                            <h1 style="color: white;">The Unava Nagrik Sahakari Bank Ltd.</h1>
                             <p class = "lead" style="color: white; font-size: 16px;">&nbsp;Registration no.: XYZ123</p>
                         </div>
 
-                        
+                        <div class = "col-md-3 col-sm-2" style="padding-top: 25px;">
+                            <a href="login.html"><div class="btn btn-block"><h4 style="color: white;">Login</h4></div></a>
+                        </div>
                     </div>
                 </div>    
             </div> 
         </div>
 
 <!--End Intro-->
-
-<div class="container">
-    <div class="col-md-4 center">
-    <div class="panel panel-default" style="max-width: 350px; padding-bottom:10px;">
-    <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        
-            <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-            
-            <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
+      
+      <div class="container-fluid" style="max-width: 1250px;">
+        <nav class = "navbar navbar-default navbar-full" role = "navigation">
+            <div class = "navbar-header">
+                <button type="button" class = "navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">                               <span class = "sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class = "navbar-brand" href="index.html"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
             </div>
         
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        
-            <a href="https://www.forgotpassword.com" style="float: right">Forgot password?</a><br><br>
-        
-        <center><h5>Don't have an account? <a href="www.signup.html">Sign up now!</a></h5></center>
-    </form>    
+            <div class = "navbar-collapse collapse">
+                <ul class = "nav navbar-nav">
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "blog.html">Blog</a></li>
+                    <li><a href = "clients.html">Clients</a></li>
+                    <li><a href = "contact.html">Contacts</a></li>
+                    <li class = "dropdown">
+                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social<b class = "caret"></b></a>
+                            <ul class = "dropdown-menu">
+                                <li><a href="https:\\www.facebook.com">Facebook</a></li>
+                                <li><a href="https:\\www.twitter.com">Twitter</a></li>
+                                <li><a href="https:\\www.linkedin.com">LinkedIn</a></li>
+                            </ul>
+                    </li>
+                    
+                </ul>
+                
+<!--                <p style="text-indent: 10em; padding-top: 15px; color: white;"><a href=Contact</p>-->
+            </div>
+          </nav>
+        </div>
+      
+<!--Navigation bar end--> 
+
+<div class="container-fluid" style="max-width: 1250px;">
+    <div class="locator">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6" style="background-color: #444; height: 350px;">
+                    <address><br>
+                                <h3><b>The Unava Nagarik Sahakari Bank Ltd.</b></h3>
+                                Marketyard Compound,<br>At & Post :- Unava - 384160<br>
+                                Ta-Unjha Dist-Mehsana (N. Guj)<br><br>
+                                <b>Contact: </b>(O) <a href="tel: 02767-255900" title="Call office">02767-255900</a>, <a href="tel: 02767-258976" title="Call office">258976</a><br>
+                                <b>M. No.: </b><a href="tel: 9879246694" title="Call mobile">9879246694</a><br>
+                                <b>Fax :-</b>02767-258976<br>
+                                <b>Email: </b><a href="mailto: nagrik_unava12@rediffmail.com" title="Send direct mail">nagrik_unava12@rediffmail.com</a>
+                            </address><br>
+                </div>
+
+                <div class="col-md-4 col-sm-6" style="background-color: #444; height: 350px; padding-top: 20px;">
+                    <h4 style="color: white;">Find The UNSB on Google Maps!</h4>
+                        <div id="map"></div>
+                            <script>
+                                 function initMap() {
+                                    var uluru = {lat: 23.7707292, lng: 72.3648574};
+                                    var map = new google.maps.Map(document.getElementById('map'), {
+                                    zoom: 4,
+                                    center: uluru
+                                    });
+                                    var marker = new google.maps.Marker({
+                                    position: uluru,
+                                    map: map
+                                    });
+                                }
+                             </script>
+
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpZ_Q6TVPyBIWLMCl3Wjp_SWlmNcpSv5I&callback=initMap"></script>
+
+                </div>
+                
+                <div class="marquee-up col-md-4 col-sm-12" style="background-color: #444; height: 350px">
+                    <h3 style="color: white"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Important Info</h3><hr>
+                    
+                        <marquee direction="up" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33;">
+                            <h5><li>This text is a demo of marquee.</li><br>
+                            <li>Hello there!</li><br>
+                            <li>Download form&nbsp;&raquo;&nbsp;<a href="login.html" style="color: #93ce33"><b>Click here</b></a></li><br></h5>
+                        </marquee>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</div> 
-</div>
- 
-<!--Form end-->
-                 
+      
+<!--End of map container-->
+      
 <div class="fa-icon">
 <div class="container">
     <div class="row">
@@ -100,7 +166,7 @@
         
             
                 <div class="col-md-2">
-                    <a href="find-us.html" >
+                    <a href="#" >
                         <div class="hbox box1">
                             <i class="fa fa-map-marker fa-4x" style="color: white;"></i><br>
                             <h4>Find us</h4>
@@ -242,21 +308,9 @@
                         </div>
                     </div>
                 </div>
-
-<!--End of footer-->      
-           
-      
-<!--Download form end-->      
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-      <script>
-        $(function(){
-          $('.carousel').carousel({
-              interval: 4000
-          }); 
-          })
-        </script>
-  </body>
-</html>
+                
+            </footer>
+        </div>
+    </div>      
+</div>
+<!--End of footer-->            

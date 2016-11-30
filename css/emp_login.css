@@ -2,7 +2,7 @@ html, body{
     background-color: #EEEEEE;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, li, a, btn, address{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -13,8 +13,11 @@ h1, h2, h3, h4, h5, h6{
 
 .logo{
     height: 25px;
-    width: inherit;
-    
+    width: inherit;   
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 .intro-block{
@@ -73,15 +76,53 @@ h1, h2, h3, h4, h5, h6{
 .form-signin .btn{
     margin-bottom: 10px;
 }
+
+.fa-icon{
+    background-color: #0099e6; 
+    height: 120px;
+    width: auto;
+    text-align: center;
+}
+
+.fa-icon h4{
+    color: white;
+}
+
+
+.hbox{
+    padding-top: 15px;
+    min-height: 115px;
+    transition: all 0.4s ease 0s;
+}
+
+.hbox:hover{
+    box-shadow: rgba(0,0,0,0.5) 2px 5px 5px 2px;
+}
+
 .panel{
     background: white;
 }
 
 .ftr{
-    background: url("../images/background-new.jpg") repeat;
+    background: #444444;
     padding: 40px 0 40px 0;
 }
 
 .ftr address, .ftr a, .ftr p{
-    color: #fff;
+    color: #93ce33;
+}
+
+
+.myPanel{
+    background: #444;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #93ce33;
+    padding: 5px 15px 20px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: all 0.4s ease 0s;
+}
+
+.myPanel:hover{
+    box-shadow: rgba(0,0,0,0.5) 2px 5px 5px 2px;
 }
