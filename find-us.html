@@ -141,7 +141,7 @@
 
                 </div>
                 
-                <div class="marquee-up col-md-4 col-sm-12" style="background-color: #444; height: 350px">
+                <div class="marquee-up col-md-4 col-sm-12" style="background-color: #444; height: 350px; padding-top:10px;">
                     <h3 style="color: white"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Important Info</h3><hr>
                     
                         <marquee direction="up" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33;">
@@ -313,4 +313,18 @@
         </div>
     </div>      
 </div>
-<!--End of footer-->            
+<!--End of footer-->     
+      
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+      <script>
+        $(function(){
+          $('.carousel').carousel({
+              interval: 4000
+          }); 
+          })
+        </script>
+  </body>
+</html>      
