@@ -91,13 +91,26 @@ ul a{
   background-color: darkgoldenrod;
 }
 
+.carouselInfo .carousel-control{
+    visibility: hidden;
+    transition: all 0.1s ease 0s;
+    background: auto;
+    height: 100px;
+    outline: 0;
+    width: 8%;
+    top: 35%;
+}
+
+.carouselInfo:hover .carousel-control{
+    visibility: visible;
+}
+
 .carouselInfo{
     color: #fff;
 }
 
 .carousel-caption{
-    z-index: 4;
-
+    z-index: 6;
 }
 
 .carousel-inner > .item > img{
@@ -110,6 +123,22 @@ ul a{
 .carousel-inner > .item{
     width: inherit;
     height: inherit;
+}
+
+
+.secondCarousel .carousel .carousel-control{
+    visibility: hidden;
+    transition: all 0.1s ease 0s;
+    background: auto;
+    filter: progid: none;
+    height: 100px;
+    outline: 0;
+    width: 8%;
+}
+
+.carousel:hover .carousel-control{
+    visibility: visible;
+    
 }
 
 .marquee-up{
@@ -127,6 +156,19 @@ ul a{
     padding-bottom: 10px;
 }
 
+.secondCarousel{
+    padding-top: 30px;
+    margin-bottom: 25px;
+    background-color: #006A7D;
+    box-shadow: rgba(0,0,0,0.5) 0px 5px 5px 2px;
+}
+
+#anotherCarousel .carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
 .panel{
     background: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
@@ -136,37 +178,6 @@ ul a{
 .panel:hover{
     box-shadow: rgba(0, 153, 230, 0.5) 2px 5px 5px 2px;
 }
-
-/*
-.fa-icon{
-    background-color: #0099e6; 
-    height: 120px;
-    width: auto;
-    margin: auto;
-}
-
-.fa-icon h4{
-    color: white;
-}
-
-
-.hbox{
-    padding-top: 15px;
-    min-height: 115px;
-    transition: all 0.4s ease 0s;
-    text-align: center;
-}
-
-.hbox:hover{
-    box-shadow: rgba(0,0,0,0.5) 2px 5px 5px 2px;
-}
-
-.hbtbox{
-    margin-left: -15px;
-    margin-right: -15px;
-}
-*/
-
 
 .fa-icon{
     background-color: #0099e6; 
@@ -220,4 +231,12 @@ ul a{
 
 .myPanel:hover{
     box-shadow: rgba(0,0,0,0.5) 2px 5px 5px 2px;
+}
+
+.myPanel .social i{
+    transition: all 0.4s ease 0s;
+}
+
+.myPanel .social i:hover{
+    box-shadow: rgba(0,0,0,0.5) 0px 5px 5px 2px;
 }

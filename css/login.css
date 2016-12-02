@@ -133,3 +133,12 @@ a:hover{
 .myPanel:hover{
     box-shadow: rgba(0,0,0,0.5) 2px 5px 5px 2px;
 }
+
+
+.myPanel .social i{
+    transition: all 0.4s ease 0s;
+}
+
+.myPanel .social i:hover{
+    box-shadow: rgba(0,0,0,0.5) 0px 5px 5px 2px;
+}
