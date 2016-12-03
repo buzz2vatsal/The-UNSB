@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/bank_universal.css" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
     <link rel="shortcut icon" type="image/png" href="images/favicon.jpg">
 
@@ -23,7 +24,7 @@
     <![endif]-->
   </head>
   <body>
-      
+<!--beginning of top strip-->      
       <div class="container" style="background-color: #990000; width: auto; height: 35px;">
         <div class="row">
             <div class="col-md-1"></div>
@@ -44,6 +45,8 @@
       </div>
 
 <!--End of top strip-->      
+
+<!--Start of intro block-->
       
       <div class="container-fluid" style="max-width: 1250px;">
           <div class = "intro-block">
@@ -59,7 +62,7 @@
                         </div>
 
                         <div class = "col-md-3 col-sm-2" style="padding-top: 25px;">
-                            <a href="login.html"><div class="btn btn-block"><h4 style="color: white;">Login</h4></div></a>
+                            <a href="login.html"><div class="btn btn-block"><h4 style="color: black">Login</h4></div></a>
                         </div>
                     </div>
                 </div>    
@@ -67,6 +70,8 @@
         </div>
 
 <!--End Intro-->
+
+<!--Beginning of navbar-->
       
       <div class="container-fluid" style="max-width: 1250px;">
         <nav class = "navbar navbar-default navbar-full" role = "navigation">
@@ -104,125 +109,117 @@
       
 <!--Navigation bar end-->           
       
-<div class="container-fluid" style="max-width: 1250px;">
-<div class = "carouselInfo">
+<!--Beginning of first carousel-->
+      
+
     <div class = "container">
-    <div class="row">
-        <div class="col-md-8 col-sm-12" style="background: white;">
-            <div id="myCarousel" class = "carousel slide">
-                <ol class = "carousel-indicators">
-                    <li data-target = "#myCarousel" data-slide-to="0" class = "active"></li>
-                    <li data-target = "#myCarousel" data-slide-to="1"></li>
-                    <li data-target = "#myCarousel" data-slide-to="2"></li>
-                </ol>
+        <div class="row">
+            <div class = "carouselInfo">
+                <div class="col-md-8 col-sm-12" style="background: white;">
+                    <div id="myCarousel" class = "carousel slide">
+                        <ol class = "carousel-indicators">
+                            <li data-target = "#myCarousel" data-slide-to="0" class = "active"></li>
+                            <li data-target = "#myCarousel" data-slide-to="1"></li>
+                            <li data-target = "#myCarousel" data-slide-to="2"></li>
+                        </ol>
     
-                <div class = "carousel-inner">
-                    
-                    <div class = "item active">
-                        <img src="images/1.jpg">
-                        <div class = "container active">
-                            <div class="carousel-caption">
-                                <h1>SLIDE 1</h1>
-                                <p>This is a demo. Slide number 1.</p>
-                                <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
+                        <div class = "carousel-inner">
+
+                            <div class = "item active">
+                                <img src="images/1.jpg">
+                                <div class = "container active">
+                                    <div class="carousel-caption">
+                                        <h1>SLIDE 1</h1>
+                                        <p>This is a demo. Slide number 1.</p>
+                                        <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-            
-                    <div class = "item">
-                        <img src="images/2.jpg">
-                        <div class = "container active">
-                            <div class="carousel-caption">
-                                <h1>SLIDE 2</h1>
-                                <p>This is a demo. Slide number 2.</p>
-                                <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
+
+                            <div class = "item">
+                                <img src="images/2.jpg">
+                                <div class = "container active">
+                                    <div class="carousel-caption">
+                                        <h1>SLIDE 2</h1>
+                                        <p>This is a demo. Slide number 2.</p>
+                                        <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-          
-                    <div class = "item">
-                        <img src="images/3.jpg">
-                        <div class = "container active">
-                            <div class="carousel-caption">
-                                <h1>SLIDE 3</h1>
-                                <p>This is a demo. Slide number 3.</p>
-                                <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
+
+                            <div class = "item">
+                                <img src="images/3.jpg">
+                                <div class = "container active">
+                                    <div class="carousel-caption">
+                                        <h1>SLIDE 3</h1>
+                                        <p>This is a demo. Slide number 3.</p>
+                                        <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
-                    </div>
-                    
-                </div>
-    
+
         <a class = "left carousel-control" href="#myCarousel" data-slide="prev"><span class = "glyphicon glyphicon-chevron-left"></span></a>
         <a class = "right carousel-control" href="#myCarousel" data-slide="next"><span class = "glyphicon glyphicon-chevron-right"></span></a>
                        
-            </div>     
-        </div>
+                    </div>     
+                </div>
+            </div>
         
-        <div class="marquee-up col-md-4 col-sm-12" style="background-color: #444; height: 390px; padding-top:10px;">
-            <h3 style="color: white"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Important Info</h3><hr>
-            <div id="marquee-up">
-                <marquee direction="up" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33;">
-                    <h5><li>This text is a demo of marquee.</li><br>
-                    <li>Hello there!</li><br>
-                    <li>Download form&nbsp;&raquo;&nbsp;<a href="login.html" style="color: #93ce33"><b>Click here</b></a></li><br></h5>
-                    
-                </marquee>
+            <div class="marquee-up col-md-4 col-sm-12">
+                <h3 style="color: white"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Important Info</h3><hr>
+                    <marquee direction="up" scrolldelay="80" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33; height: 400px;">
+                        <h5><li>This text is a demo of marquee.</li><br>
+                        <li>Hello there!</li><br>
+                        <li>This is a demo</li><br>
+                        <li>Lorem Ipsum, bro!</li><br>
+                        <li>Why the hell Latin?!</li><br>
+                        <li>Why couldn't they just use English!</li><br>
+                        <li>Lorem Ipsum again!</li><br>
+                        <li>Because why not?</li><br>
+                        <li>Haha! LOL. -_-</li><br>
+                        <li>Download form&nbsp;&raquo;&nbsp;<a href="login.html" style="color: #93ce33"><b>Click here</b></a></li><br></h5>
+                    </marquee>
             </div>
         </div>
-        
-<!--
-        <div class="form">
-        <div class="col-md-4 col-sm-12" style="background-color: black; padding-bottom:50px;">
-                    <h3>Download forms</h3><hr>
-                    <form>
-                        <label>Select the Financial Year: </label><br>
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select one
-                                <span class="caret"></span></button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">2016-17</a></li>
-                                    <li><a href="#">2015-16</a></li>
-                                    <li><a href="#">2014-15</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                            <label>Select the type of form:</label>
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select one
-                                    <span class="caret"></span></button>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">HTML</a></li>
-                                        <li><a href="#">CSS</a></li>
-                                        <li><a href="#">JavaScript</a></li>
-                                    </ul>
-                                </div>
-                        </div>
-                        
-
-                        <br><br><br>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-        </div>
-        </div>
--->
-</div>
-</div>
-</div>
-</div>           
+      </div>           
     
 <!--Carousel end--> 
+
+<!--parallax image-->      
+<div class="parallax_1">
+    <div class="tint">
+        <div class="caption">
+            <span class="border">Experience care like a family.</span><br><br>
+            <div class="btn myButton">
+                <h4 style="color: black">Click here to know more&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></h4>
+            </div>
+        </div>
+    </div>
+</div>    
       
-<!--Next block-->
+<div class="parallax_2">
+    <div class="tint">
+        <div class="caption">
+            <span class="border">Your satisfaction is our first priority.</span><br><br>
+            <div class="btn myButton">
+                <h4 style="color: black">Click here to know more&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></h4>
+            </div>
+        </div>
+    </div>
+</div>            
+            
+<!--End of parallax image-->
+      
+<!--Next image block-->
+      
 <div class="img">
     <div class="container-fluid" style="max-width: 1250px;">
         <div class="row">
 
                 <div class="col-md-4 col-sm-12">
-                    <div class="panel panel-default" style="padding-top:15px;">
+                    <div class="imgPanel panel-default" style="padding-top:15px;">
                         <center><a href="index.html"><img class="img-responsive img-circle" style="width: 300px; height: 300px;" src="images/sq_1.jpg"></a></center>
 
                         <div class="panel-body">
@@ -235,7 +232,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-12">
-                    <div class="panel panel-default" style="padding-top:15px;">
+                    <div class="imgPanel panel-default" style="padding-top:15px;">
                         <center><a href="index.html"><img class="img-responsive img-circle" style="width: 300px; height: 300px;" src="images/sq_2.jpg"></a></center>
                         <div class="panel-body">
 
@@ -247,7 +244,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-12">
-                    <div class="panel panel-default" style="padding-top:15px;">
+                    <div class="imgPanel panel-default" style="padding-top:15px;">
                         <center><a href="index.html"><img class="img-responsive img-circle" style="width: 300px; height: 300px;" src="images/sq_3.jpg"></a></center>
 
                         <div class="panel-body">
@@ -265,7 +262,10 @@
       
       
 <!--End of image block-->
-
+    
+      
+<!--Beginning of second carousel-->
+      
 <div class="secondCarousel">
 <div class="container">
     <div id="anotherCarousel" class="carousel slide">
@@ -352,6 +352,7 @@
 </div>
 </div>      
 
+<!--End of second carousel-->      
       
 <!--
 <div class="fa-icon">
@@ -413,6 +414,9 @@
 </div>
 </div>      
 -->
+      
+<!--Beginning of extra bar-->
+      
 <div class="fa-icon">
     <div class="container">
         <div class="row extra-bar">
@@ -472,7 +476,8 @@
       
 <!--End of fa block-->      
       
-                 
+<!--Start of footer-->
+      
 <div class="ftr">
     <div class="container-fluid" style="max-width: 1250px;"> 
         <div class="row">
