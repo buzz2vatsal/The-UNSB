@@ -37,6 +37,7 @@
     background-color: #444; 
     height: 500px; 
     padding-top:10px;
+    margin-top: 5px;
 }
 .imgPanel{
     background-color: white;
@@ -75,8 +76,6 @@
 .secondCarousel{
     padding-top: 30px;
     margin-bottom: 25px;
-    background-color: #006A7D;
-    box-shadow: rgba(0,0,0,0.5) 0px 5px 5px 2px;
 }
 
 #anotherCarousel .carousel-caption{
