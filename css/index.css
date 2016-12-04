@@ -13,7 +13,7 @@
 }
 
 .carousel-caption{
-    z-index: 6;
+    z-index: -1;
 }
 
 .carousel-inner > .item > img{
@@ -30,7 +30,7 @@
 .carousel-caption{
     background: rgba(0,0,0,0.6);
     position: absolute;
-    min-height: 110px;
+    min-height: 10px;
 }
 
 .marquee-up{
@@ -96,7 +96,7 @@
 
 .parallax_1, .parallax_2{
     position: relative;
-    margin-top: 20px;
+    margin-top: 5px;
     opacity: rgba(0,0,0,0.4);
     background-attachment: fixed;
     background-position: center;
