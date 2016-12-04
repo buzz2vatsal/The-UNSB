@@ -17,8 +17,10 @@ ul a{
 }
 
 .navbar{
-    height: auto;
     background-color: #444;
+    margin-bottom: auto;
+    border: none;
+    border-radius: 0;
 }
 
 .navbar-collapse{
@@ -53,18 +55,15 @@ ul a{
 }
 
 .intro-block{
-    background: url("../images/background.jpg");
-    padding: 30px 15px 40px;
+    background: url("../images/background.jpg") repeat;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 20px;
 }
 
 .text-muted{
     color: darkred;
     font-weight:100;
-}
-
-.text-success{
-    color: aliceblue;
-    font-weight: 100;
 }
 
 .tpad{
@@ -99,7 +98,7 @@ ul a{
 
 .panel{
     background: white;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .fa-icon{

@@ -37,12 +37,12 @@
     background-color: #444; 
     height: 500px; 
     padding-top:10px;
-    margin-top: 5px;
+    
 }
 .imgPanel{
     background-color: white;
     margin-top: -10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
     transition: all 0.4s ease 0s;
 }
