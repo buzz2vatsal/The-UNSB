@@ -66,18 +66,3 @@
     width: 10%;
 }
 
-.vm{
-    background: url("../images/background.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.tint-img{
-    background: rgba(0,0,0,0.3);
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-}
