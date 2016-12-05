@@ -66,3 +66,30 @@
     width: 10%;
 }
 
+#nav.affix {
+    position: fixed;
+    top: 0;
+    z-index:100;
+}
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+#down{
+  margin-left: 50%;
+  font-size: 50px;
+}
+.custnav{
+    background-color: #444;
+}
+.navbar-fixed2 {
+  top: 0px;
+  z-index:200;
+
+  width: 90%;
+  position: fixed;
+  display: block;
+  background-color: #444;
+}

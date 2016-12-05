@@ -82,11 +82,12 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <a class = "navbar-brand" href="index.html"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
+                
             </div>
         
-            <div class = "navbar-collapse collapse">
+            <div class = "navbar-collapse collapse custnav" id="nav" role="navigation">
                 <ul class = "nav navbar-nav">
+                <a class = "navbar-brand" href="index.html"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
                     <li class = "active"><a href = "index.html">Home</a></li>
                     <li><a href = "blog.html">Blog</a></li>
                     <li><a href = "clients.html">Clients</a></li>
@@ -172,7 +173,7 @@
         
             <div class="marquee-up col-md-4 col-sm-12">
                 <h3 style="color: white"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Important Info</h3><hr>
-                    <marquee direction="up" scrolldelay="80" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33; height: 400px;">
+                    <marquee direction="up" scrolldelay="80" onmousehover="this.stop();" onmouseout="this.start();" style="color: #93ce33; height: 400px;">
                         <h5><li>This text is a demo of marquee.</li><br>
                         <li>Hello there!</li><br>
                         <li>This is a demo</li><br>
@@ -624,7 +625,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-      
+    <script type="text/javascript" src="js/style.js"></script>
       <script>
         $(function(){
           $('.carousel').carousel({
