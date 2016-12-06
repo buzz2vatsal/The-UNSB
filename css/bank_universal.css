@@ -27,11 +27,6 @@ ul a{
     padding-right: 20px;  
 }
 
-.nav{
-    margin: 0;
-    display: inline-block;
-}
-
 .nav.navbar-nav li a{
     color: #93ce33;
 }
@@ -39,6 +34,73 @@ ul a{
 .nav.navbar-nav li a:hover{
     color: #fff;
     background-color: black;
+}
+
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    z-index:100;
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+#down{
+  margin-left: 50%;
+  font-size: 50px;
+}
+
+.custnav{
+    padding-left: 0;
+    background-color: #444;
+}
+
+.navbar-fixed2 {
+  top: 0px;
+  z-index:200;
+
+  width: 90%;
+  position: fixed;
+  display: block;
+  background-color: #444;
+}
+
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
 }
 
 .btn-primary{
@@ -57,17 +119,11 @@ ul a{
 .intro-block{
     background: url("../images/background.jpg") repeat;
     padding-top: 30px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-}
-
-.text-muted{
-    color: darkred;
-    font-weight:100;
+    padding-bottom: 40px;
 }
 
 .tpad{
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .center{

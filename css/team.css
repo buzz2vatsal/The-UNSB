@@ -1,0 +1,46 @@
+.tab-content img{
+    height: 50%;
+    width: 50%;
+}
+
+.tab-pane img, .tab-pane p{
+    display: inline-table;
+    vertical-align: middle;
+    height: inherit;
+}
+
+.tab-pane p{
+    padding-left: 20px;
+    font-size: 1.75vw;
+}
+
+.tab-pane img{
+    padding: 0;
+}
+
+#team > div{
+    background: #fff; 
+    margin-top:10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#leader > div{
+    background: #fff; 
+    margin-top:10px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+/*
+
+@media(min-width: 768px){
+    .tab-pane p{font-size: 20px;}
+}
+
+@media (max-width: 768px){
+    .tab-pane p{font-size: 16px;}
+}
+
+@media (max-width: 480px){
+    .tab-pane p{font-size: 12px;}
+}*/

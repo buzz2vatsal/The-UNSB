@@ -25,7 +25,7 @@
   </head>
   <body>
 <!--beginning of top strip-->      
-      <div class="container" style="background-color: #990000; width: auto; height: 35px;">
+      <div class="container" style="background-color: #444; width: auto; height: 35px;">
         <div class="row">
             <div class="col-md-1"></div>
             
@@ -86,10 +86,10 @@
             </div>
         
             <div class = "navbar-collapse collapse custnav" id="nav" role="navigation">
-                <ul class = "nav navbar-nav">
                 <a class = "navbar-brand" href="index.html"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
+                <ul class = "nav navbar-nav">
                     <li class = "active"><a href = "index.html">Home</a></li>
-                    <li><a href = "blog.html">Blog</a></li>
+                    <li><a href = "team.html">Team</a></li>
                     <li><a href = "clients.html">Clients</a></li>
                     <li class = "dropdown">
                      <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">About Us<b class = "caret"></b></a>
@@ -118,8 +118,8 @@
 <!--Beginning of first carousel-->
       
         <div class="row">
-            <div class = "carouselInfo" style="margin-top: 5px;">
-                <div class="col-md-8 col-sm-12">
+            <div class = "carouselInfo" style="margin-top: 5px; ">
+                <div class="col-md-8 col-sm-12" style="padding: 0;">
                     <div id="myCarousel" class = "carousel slide">
                         <ol class = "carousel-indicators">
                             <li data-target = "#myCarousel" data-slide-to="0" class = "active"></li>
@@ -173,7 +173,7 @@
         
             <div class="marquee-up col-md-4 col-sm-12">
                 <h3 style="color: white"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Important Info</h3><hr>
-                    <marquee direction="up" scrolldelay="80" onmousehover="this.stop();" onmouseout="this.start();" style="color: #93ce33; height: 400px;">
+                    <marquee direction="up" scrolldelay="80" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33; height: 400px;">
                         <h5><li>This text is a demo of marquee.</li><br>
                         <li>Hello there!</li><br>
                         <li>This is a demo</li><br>
@@ -618,13 +618,18 @@
     </div>      
 </div>
 <!--End of footer-->      
-<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+           
+      
 <!--Download form end-->      
+    
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/style.js"></script>
+      
+      <script type="text/javascript" src="js/style.js"></script>
       <script>
         $(function(){
           $('.carousel').carousel({
