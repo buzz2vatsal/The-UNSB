@@ -1,0 +1,68 @@
+.para{
+    background: #dedede;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.para-img{
+    height: 10%;
+    width: 10%;
+}
+
+
+.Carousel .carousel .carousel-control{
+    visibility: hidden;
+    transition: all 0.1s ease 0s;
+    background: auto;
+    filter: progid: none;
+    height: 100px;
+    outline: 0;
+    width: 8%;
+}
+
+.carousel:hover .carousel-control{
+    visibility: visible; 
+}
+
+.Carousel{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.carousel-caption{
+    z-index: -1;
+}
+
+.carousel-inner > .item > img{
+    width: inherit;
+    height: 500px;
+
+}
+
+.carousel-inner > .item{
+    width: inherit;
+    height: inherit;
+}
+
+.carousel-caption{
+    margin-top: 20px;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    min-height: 10px;
+}
+
+.para_2{
+    background: #444;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.para-2-img{
+    height: 10%;
+    width: 10%;
+}
+

@@ -10,9 +10,10 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-    <link href="css/bank_universal.css" rel="stylesheet">  
+    <link href="css/login.css" rel="stylesheet">
+    <link href="css/bank_universal.css" rel="stylesheet"> 
+    <link href="css/bank-history.css" rel="stylesheet">  
+    <link href="css/font-awesome.min.css" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
     <link rel="shortcut icon" type="image/png" href="images/favicon.jpg">
 
@@ -24,7 +25,7 @@
     <![endif]-->
   </head>
   <body>
-<!--beginning of top strip-->      
+      
       <div class="container" style="background-color: #444; width: auto; height: 35px;">
         <div class="row">
             <div class="col-md-1"></div>
@@ -37,41 +38,33 @@
                     </h5>
             </div>
             
-            <div class="col-md-5 col-sm-5">
-                    <a href="emp_login.html"><div class="btn btn-primary" style="width: 200px; height: 35px; float:right;">Employee Login</div></a>
-            </div>
-            
         </div>
       </div>
 
 <!--End of top strip-->      
-
-<!--Start of intro block-->
-      
-<div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">
-    <div class="row">
+<div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">     
+      <div class="row">
           <div class = "intro-block">
-              <div class="container">
+                <div class = "container">
                     <div class = "row">
                         <div class = "col-md-2 col-sm-3">
                             <a href="index.html"><img class="img-responsive tpad" src="images/UNSB_Grey.png" style="height: inherit; width: inherit" title="Home"></a>
                         </div>
 
                         <div class = "col-md-7 col-sm-7">
-                            <h1 style="color: white;">The Unava Nagrik Sahakari Bank Ltd.</h1>
+                            <h1 style="color: white;">Welcome to The UNSB Ltd!</h1>
                             <p class = "lead" style="color: white; font-size: 16px;">&nbsp;Registration no.: XYZ123</p>
                         </div>
 
-                        <div class = "col-md-3 col-sm-2" style="padding-top: 25px;">
-                            <a href="login.html"><div class="btn btn-block"><h4 style="color: black">Login</h4></div></a>
-                        </div>
-                    </div> 
-              </div>
+                        
+                    </div>
+                </div>    
             </div> 
-    </div>
+        </div>
+
 
 <!--End Intro-->
-
+      
 <!--Beginning of navbar-->
       <div class="row">
         <nav class = "navbar navbar-default navbar-full" role = "navigation">
@@ -82,17 +75,16 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                
             </div>
         
             <div class = "navbar-collapse collapse custnav" id="nav" role="navigation">
                 <a class = "navbar-brand" href="index.html"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
                 <ul class = "nav navbar-nav">
-                    <li class = "active"><a href = "index.html">Home</a></li>
+                    <li><a href = "index.html">Home</a></li>
                     <li><a href = "team.html">Team</a></li>
                     <li><a href = "clients.html">Clients</a></li>
                     <li class = "dropdown">
-                     <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">About Us<b class = "caret"></b></a>
+                    <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">About Us<b class = "caret"></b></a>
                             <ul class = "dropdown-menu">
                                 <li><a href="about-us.html">About Us</a></li>
                                 <li><a href="bank-history.html">Bank History</a></li>
@@ -113,169 +105,43 @@
             </div>
           </nav>
     </div>
-<!--Navigation bar end-->           
-      
-<!--Beginning of first carousel-->
-      
-        <div class="row">
-            <div class = "carouselInfo" style="margin-top: 5px; ">
-                <div class="col-md-8 col-sm-12" style="padding: 0;">
-                    <div id="myCarousel" class = "carousel slide">
-                        <ol class = "carousel-indicators">
-                            <li data-target = "#myCarousel" data-slide-to="0" class = "active"></li>
-                            <li data-target = "#myCarousel" data-slide-to="1"></li>
-                            <li data-target = "#myCarousel" data-slide-to="2"></li>
-                        </ol>
     
-                        <div class = "carousel-inner">
+<!--Navigation bar end-->  
 
-                            <div class = "item active">
-                                <img src="images/1.jpg">
-                                <div class = "container active">
-                                    <div class="carousel-caption">
-                                        <h1>SLIDE 1</h1>
-                                        <p>This is a demo. Slide number 1.</p>
-                                        <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
-                                    </div>
-                                </div>
-                            </div>
+<!--Paragraph start-->
 
-                            <div class = "item">
-                                <img src="images/2.jpg">
-                                <div class = "container">
-                                    <div class="carousel-caption">
-                                        <h1>SLIDE 2</h1>
-                                        <p>This is a demo. Slide number 2.</p>
-                                        <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class = "item">
-                                <img src="images/3.jpg">
-                                <div class = "container">
-                                    <div class="carousel-caption">
-                                        <h1>SLIDE 3</h1>
-                                        <p>This is a demo. Slide number 3.</p>
-                                        <p><a href = "#" class = "btn btn-primary btn-large">Know More!</a></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-        <a class = "left carousel-control" href="#myCarousel" data-slide="prev"><span class = "glyphicon glyphicon-chevron-left"></span></a>
-        <a class = "right carousel-control" href="#myCarousel" data-slide="next"><span class = "glyphicon glyphicon-chevron-right"></span></a>
-                       
-                    </div>     
-                </div>
-            </div>
+<div class="row">
+    <div class="para">
         
-            <div class="marquee-up col-md-4 col-sm-12">
-                <h3 style="color: white"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Important Info</h3><hr>
-                    <marquee direction="up" scrolldelay="80" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33; height: 400px;">
-                        <h5><li>This text is a demo of marquee.</li><br>
-                        <li>Hello there!</li><br>
-                        <li>This is a demo</li><br>
-                        <li>Lorem Ipsum, bro!</li><br>
-                        <li>Why the hell Latin?!</li><br>
-                        <li>Why couldn't they just use English!</li><br>
-                        <li>Lorem Ipsum again!</li><br>
-                        <li>Because why not?</li><br>
-                        <li>Haha! LOL. -_-</li><br>
-                        <li>Download form&nbsp;&raquo;&nbsp;<a href="login.html" style="color: #93ce33"><b>Click here</b></a></li><br></h5>
-                    </marquee>
+        <div class="container" style="width: 100%; display: inline-block; ">
+                
+                <div class="col-xs-1 para-img" style="transform: scaleX(-1); grid-column-align: center;">
+                        <img class="img-responsive" src="images/corner-logo.png">
+                </div>
+            
+                <div class="col-xs-1 para-img" style="float: right;">
+                        <img class="img-responsive" src="images/corner-logo.png">
+                </div>
+        </div>
+    
+    
+    <div class="row" style="width:90%; margin: 0 auto;">
+        <div class="container" style="width:100%;">
+            <div class="col-xs-12">
+                <h2 style="text-align: center; color: #444;">Bank History</h2><hr style="height: 1px; background-color: #444;;">
+                <h4 style="color: grey; line-height: 150%;">Lorem Ipsum this bank was established in the year 1982. We love UNSB. We are awesome. I am awesome. From a small rental place into the centrally air-conditioned well equipped premises, Bank had leapfrogged in the year 1991. To meet with the high-tech demand of the time, Bank got fully computerized in the year 1993 and gratified the inhabitants of the City with its efficient services. Thereafter many Banks took a leaf out of it and got themselves computerized. To serve the larger number of people, the Bank kept on opening its branches. At present Bank is having network of 8 branches. To compete and meet with the demand of time, in February 2008, Bank started implementation of CBS facility at the Head Office, so that its customers can avail better facilities. In a short span, it linked-up all its branches with CBS. To ease the burden of its customers and to offer them better services, Bank has also initiated Mobile (SMS) banking services. Bank has also installed ‘KIOSK’ at all the branches so as to get the account information for its customers. Above that the Bank is providing Internet Banking Facility, RTGS / NEFT, E-Payment of taxes to its esteemed customers.</h4>
             </div>
         </div>
-           
-
-<!--Carousel end--> 
-
-<!--parallax image-->
-<div class="row">
-<div class="parallax_1">
-    <div class="tint">
-        <div class="caption">
-            <span class="border">Experience care like a family.</span><br><br>
-            <a href="about-us.html">
-                <div class="btn myButton">
-                    <h4 style="color: black">Click here to know more&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></h4>
-                </div>
-            </a>
-        </div>
     </div>
-</div>    
-      
-<div class="parallax_2">
-    <div class="tint">
-        <div class="caption">
-            <span class="border">Your satisfaction is our first priority.</span><br><br>
-            <a href="about-us.html">
-                <div class="btn myButton">
-                    <h4 style="color: black">Click here to know more&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></h4>
-                </div>
-            </a>
         </div>
-    </div>
-</div>            
 </div>
-<!--End of parallax image-->
-      
-<!--Next image block-->
-<div class="row">
-<div class="img" style="background: #444">
-    <div class="container-fluid" style="max-width: 1250px;">
-        <div class="row">
+</div>
+<!--Paragraph end-->
 
-                <div class="col-md-4 col-sm-12">
-                    <div class="imgPanel panel-default" style="padding-top:15px; margin-top:7px;">
-                        <center><a href="index.html"><img class="img-responsive img-circle" style="width: 300px; height: 300px;" src="images/sq_1.jpg"></a></center>
+     
+<!--Beginning of carousel--> 
 
-                        <div class="panel-body">
-
-                            <center><h5 style="color: black;">Lorem Ipsum. Established in the year 1982 with an authorized Share Capital of Rs. 25.00 lacs and the paid up Share Capital of Rs. 4.00 lacs  The Sarvodaya Sahakari Bank Ltd., Surat is rightly bracketed as one of the leading and top-most co-op. banks of the city. This is just a test. Know more is a clickable link. And yeah, I am awesome!</h5></center><br>
-
-                            <h4><a href="demo.html" style="color: black;"><center>Know more&nbsp;&raquo;</center></a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12">
-                    <div class="imgPanel panel-default" style="padding-top:15px;  margin-top:7px;">
-                        <center><a href="index.html"><img class="img-responsive img-circle" style="width: 300px; height: 300px;" src="images/sq_2.jpg"></a></center>
-                        <div class="panel-body">
-
-                            <center><h5 style="color: black;">Lorem Ipsum. Established in the year 1982 with an authorized Share Capital of Rs. 25.00 lacs and the paid up Share Capital of Rs. 4.00 lacs  The Sarvodaya Sahakari Bank Ltd., Surat is rightly bracketed as one of the leading and top-most co-op. banks of the city. This is just a test. Know more is a clickable link. And yeah, I am awesome!</h5></center><br>
-
-                            <h4><a href="demo.html" style="color: black;"><center>Know more&nbsp;&raquo;</center></a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12">
-                    <div class="imgPanel panel-default" style="padding-top:15px;  margin-top:7px;">
-                        <center><a href="index.html"><img class="img-responsive img-circle" style="width: 300px; height: 300px;" src="images/sq_3.jpg"></a></center>
-
-                        <div class="panel-body">
-
-                            <center><h5 style="color: black;">Lorem Ipsum. Established in the year 1982 with an authorized Share Capital of Rs. 25.00 lacs and the paid up Share Capital of Rs. 4.00 lacs  The Sarvodaya Sahakari Bank Ltd., Surat is rightly bracketed as one of the leading and top-most co-op. banks of the city. This is just a test. Know more is a clickable link. And yeah, I am awesome!</h5></center><br>
-
-                            <h4><a href="demo.html" style="color: black;"><center>Know more&nbsp;&raquo;</center></a></h4>
-                        </div>
-                    </div>
-                </div>
-
-        </div>  
-    </div>
-</div>          
-</div>            
- </div>         
-<!--End of image block-->
-    
-      
-<!--Beginning of second carousel--> 
-
-<div class="secondCarousel">
+<div class="Carousel">
 <div class="container">
     <div class="row">
     <div id="anotherCarousel" class="carousel slide">
@@ -363,15 +229,45 @@
 </div>
 </div>      
 
-<!--End of second carousel-->      
-      
-<!--
-<div class="fa-icon">
-<div class="container" >
-    <div class="row hbtbox">
-        
+<!--End of carousel-->     
 
-                <div class="col-lg-2 col-sm-6">
+<!--Second Paragraph start-->
+<div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.4) -2px -2px 3px 5px">     
+<div class="row">
+    <div class="para_2">
+
+        <div class="row" style="width:90%; margin: 0 auto;">
+            <div class="container" style="width:100%;">
+                <div class="col-xs-12">
+                    <h2 style="text-align: center; color: #fff;">Bank & APMC</h2><hr style="height: 1px; background-color: #444;;">
+                    <h4 style="color: white; line-height: 150%;">Lorem Ipsum this bank was established in the year 1982. We love UNSB. We are awesome. I am awesome. From a small rental place into the centrally air-conditioned well equipped premises, Bank had leapfrogged in the year 1991. To meet with the high-tech demand of the time, Bank got fully computerized in the year 1993 and gratified the inhabitants of the City with its efficient services. Thereafter many Banks took a leaf out of it and got themselves computerized. To serve the larger number of people, the Bank kept on opening its branches. At present Bank is having network of 8 branches. To compete and meet with the demand of time, in February 2008, Bank started implementation of CBS facility at the Head Office, so that its customers can avail better facilities. In a short span, it linked-up all its branches with CBS. To ease the burden of its customers and to offer them better services, Bank has also initiated Mobile (SMS) banking services. Bank has also installed ‘KIOSK’ at all the branches so as to get the account information for its customers. Above that the Bank is providing Internet Banking Facility, RTGS / NEFT, E-Payment of taxes to its esteemed customers.</h4>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" style="width: 100%; display: inline-block; ">
+                
+                <div class="col-xs-1 para-2-img" style="transform: scale(-1,-1); grid-column-align: center;">
+                        <img class="img-responsive" src="images/corner-logo.png">
+                </div>
+            
+                <div class="col-xs-1 para-2-img" style="float: right; transform: scaleY(-1)">
+                        <img class="img-responsive" src="images/corner-logo.png">
+                </div>
+        </div>
+        
+    </div>
+</div>
+</div>
+<!--Second Paragraph end-->
+      
+<!--Start of extra bar-->      
+<div class="fa-icon">
+<div class="container">
+    <div class="row extra-bar">
+        
+            
+                <div class="col-md-2">
                     <a href="find-us.html" >
                         <div class="hbox box1">
                             <i class="fa fa-map-marker fa-4x" style="color: white;"></i><br>
@@ -382,7 +278,7 @@
         
 
             
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-md-2">
                     <a href="#" >
                         <div class="hbox box1">
                             <i class="fa fa-exchange fa-4x" style="color: white;"></i>
@@ -392,7 +288,7 @@
                 </div>
 
             
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-md-2">
                     <a href="#" >
                         <div class="hbox box1">
                             <i class="fa fa-download fa-4x" style="color: white;"></i>
@@ -402,7 +298,7 @@
                 </div>
 
             
-                <div class="col-lg-2 cl-sm-6">
+                <div class="col-md-2">
                     <a href="#" >
                         <div class="hbox box1">
                             <i class="fa fa-exclamation fa-4x" style="color: white;"></i>
@@ -411,7 +307,7 @@
                     </a>
                 </div>
             
-                <div class="col-lg-2 col-sm-12">
+                <div class="col-md-2">
                     <a href="#" >
                         <div class="hbox box1">
                             <i class="fa fa-question fa-4x" style="color: white;"></i>
@@ -424,78 +320,18 @@
     </div>
 </div>
 </div>      
--->
-      
-<!--Beginning of extra bar-->
-      
-<div class="fa-icon">
-    <div class="container">
-        <div class="row extra-bar">
-        
-                <div class="col-md-2">
-                    <a href="find-us.html" >
-                        <div class="hbox box1">
-                            <i class="fa fa-map-marker fa-4x" style="color: white;"></i>
-                            <h4>Find us</h4>
-                        </div>
-                    </a>
-                </div>
-        
 
-                <div class="col-md-2">
-                    <a href="#" >
-                        <div class="hbox box1">
-                            <i class="fa fa-download fa-4x" style="color: white;"></i>
-                            <h4>Downloads</h4>
-                        </div>
-                    </a>
-                </div>
-
-            
-                <div class="col-md-2">
-                    <a href="#" >
-                        <div class="hbox box1">
-                            <i class="fa fa-exchange fa-4x" style="color: white;"></i>
-                            <h4>IFS Codes</h4>
-                        </div>
-                    </a>
-                </div>
-
-            
-                
-            
-                <div class=" col-md-2">
-                    <a href="#" >
-                        <div class="hbox box1">
-                            <i class="fa fa-exclamation fa-4x" style="color: white;"></i>
-                            <h4>Important Links</h4>
-                        </div>
-                    </a>
-                </div>
-            
-                <div class=" col-md-2">
-                    <a href="#" >
-                        <div class="hbox box1">
-                            <i class="fa fa-question fa-4x" style="color: white;"></i>
-                            <h4>Help & Support</h4>
-                        </div>
-                    </a>
-                </div>
-    </div>
-</div>
-</div>      
       
 <!--End of fa block-->      
       
-<!--Start of footer-->
-      
+                 
 <div class="ftr">
     <div class="container-fluid" style="max-width: 1250px;"> 
         <div class="row">
             
             <footer>
                 
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
                          <a href="index.html"><img class="img-responsive tpad" title="Home" src="images/UNSB_White.png" style="width: 25%; height: 50%;"></a>
                         <address><br>
@@ -511,7 +347,8 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                
+                <div class="col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
                         <h3 style="color: #fff">Download forms</h3><hr>
                         <h4 style="color: #93ce33"><li><a href="#">Fixed deposit form</a></li><br>
@@ -522,7 +359,7 @@
                 </div>
                 
                 
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
                         <h3 style="color: #fff">Useful links</h3><hr>
                         <h4 style="color: #93ce33"><li><a href="#">FAQs</a></li><br>
@@ -533,7 +370,7 @@
                 </div>
                 
                 
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
                         <h3 style="color: #fff">Follow us on</h3><hr>
                         <div class="row" style="padding-left:20px;">
@@ -572,64 +409,17 @@
                         </div>
                     </div>
                 </div>
-                
-<!--
-            <div class="col-sm-6 col-md-3">
-                <address>
-                    <h3>The Unava Nagarik Sahakari Bank Ltd.</h3>
-                    Marketyard Compound,<br>At & Post :- Unava - 384160<br>
-                    Ta-Unjha Dist-Mehsana (N. Guj)<br><br>
-                    Contact: (O) 02767-255900, 258976<br>
-                    M. No.: 9879246694<br>
-                    Fax :- 02767-258976<br>
-                    Email: nagrik_unava12@rediffmail.com
-                </address>
-            </div>
 
-            <div class="col-sm-6 col-md-6">
-                <h4 style="color: white;">Find The UNSB on Google Maps!</h4>
-                    <div id="map"></div>
-                        <script>
-                             function initMap() {
-                                var uluru = {lat: 23.7707292, lng: 72.3648574};
-                                var map = new google.maps.Map(document.getElementById('map'), {
-                                zoom: 4,
-                                center: uluru
-                                });
-                                var marker = new google.maps.Marker({
-                                position: uluru,
-                                map: map
-                                });
-                            }
-                         </script>
-                    
-                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpZ_Q6TVPyBIWLMCl3Wjp_SWlmNcpSv5I&callback=initMap"></script>
-                 
-            </div>
-
-            <div class="col-sm-4 col-md-3">
-                <a href="index.html"><img class="img-responsive tpad" src="images/UNSB_White.png" style="width: 25%; height: 50%;"></a><br>
-                <p>&copy;The Sluggish Sages Inc. 2016</p>
-            </div>
--->
-                
-            </footer>
-        </div>
-    </div>      
-</div>
 <!--End of footer-->      
            
       
-<!--Download form end-->      
-    
+<!--Download form end-->    
     <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-      
-      <script type="text/javascript" src="js/style.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
       <script>
         $(function(){
           $('.carousel').carousel({
