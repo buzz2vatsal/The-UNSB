@@ -1,0 +1,140 @@
+.para{
+    background: #dedede;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.para-img{
+    height: 10%;
+    width: 10%;
+}
+
+
+.Carousel .carousel .carousel-control{
+    visibility: hidden;
+    transition: all 0.1s ease 0s;
+    background: auto;
+    filter: progid: none;
+    height: 100px;
+    outline: 0;
+    width: 8%;
+}
+
+.carousel:hover .carousel-control{
+    visibility: visible; 
+}
+
+.Carousel{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.carousel-caption{
+    z-index: -1;
+}
+
+.carousel-inner > .item > img{
+    width: inherit;
+    height: 500px;
+
+}
+
+.carousel-inner > .item{
+    width: inherit;
+    height: inherit;
+}
+
+.carousel-caption{
+    margin-top: 20px;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    min-height: 10px;
+}
+
+.para_2{
+    background: #444;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.para-2-img{
+    height: 10%;
+    width: 10%;
+}
+
+.vm{
+    background: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tint-img{
+    background: rgba(0,0,0,0.3);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+#nav.affix {
+    position: fixed;
+    top: 0;
+    z-index:100;
+}
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+#down{
+  margin-left: 50%;
+  font-size: 50px;
+}
+.custnav{
+    background-color: #444;
+}
+.navbar-fixed2 {
+  top: 0px;
+  z-index:200;
+
+  width: 90%;
+  position: fixed;
+  display: block;
+  background-color: #444;
+}
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
