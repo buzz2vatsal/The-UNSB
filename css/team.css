@@ -1,35 +1,46 @@
-.form-signin {
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
+.tab-content img{
+    height: 50%;
+    width: 50%;
 }
 
-.form-signin .form-signin-heading, .form-signin .checkbox {
-  margin-bottom: 10px;
+.tab-pane img, .tab-pane p{
+    display: inline-table;
+    vertical-align: middle;
+    height: inherit;
 }
 
-.form-signin .form-control {
-  position: relative;
-  height: auto;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
+.tab-pane p{
+    padding-left: 20px;
+    font-size: 1.75vw;
 }
 
-.form-signin .form-control:focus {
-  z-index: 2;
+.tab-pane img{
+    padding: 0;
 }
 
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
+#team > div{
+    background: #fff; 
+    margin-top:10px;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
+#leader > div{
+    background: #fff; 
+    margin-top:10px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+/*
+
+@media(min-width: 768px){
+    .tab-pane p{font-size: 20px;}
 }
 
-.form-signin .btn{
-    margin-bottom: 10px;
+@media (max-width: 768px){
+    .tab-pane p{font-size: 16px;}
 }
+
+@media (max-width: 480px){
+    .tab-pane p{font-size: 12px;}
+}*/
