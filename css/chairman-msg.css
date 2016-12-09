@@ -1,0 +1,24 @@
+.msg-title{
+    float: left;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.msg-title img{
+    margin-left: 20px;
+    height: 175px;
+    width: 175px;
+}
+
+.msg-title h4{
+    color: #444;
+}
+
+.message h4{
+    line-height: 175%;
+    color: #444;
+    text-align: justify;
+}
