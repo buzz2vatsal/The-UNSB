@@ -47,10 +47,13 @@
     transition: all 0.4s ease 0s;
 }
 
-.imgPanel:hover{
-    box-shadow: #93ce33 2px 5px 5px 2px;
+.imgPanel img{
+    transition: all 0.4s ease 0s;
 }
 
+.imgPanel:hover img{
+    box-shadow: #93ce33 2px 5px 5px 2px;
+}
 
 .secondCarousel .carousel .carousel-control{
     visibility: hidden;
