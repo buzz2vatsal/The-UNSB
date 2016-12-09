@@ -1,83 +1,28 @@
-.para{
-    background: #dedede;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    text-align: justify;
+.abt-bank h3, .abt-bank p{
+    color: black;
+    line-height: 200%;
+}
+
+.chairman{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dedede;
+}
+
+.chairman img{
+    height: 200px;
+    width: 200px;
+}
+
+.chairman h4, .chairman p{
+    color: black;
+    text-align: center;
+    line-height: 200%;
+    padding: 10px;
+}
+
+.chairman img, .chairman h4{
+    padding: 5px;
+    display: inline-table;
     vertical-align: middle;
-}
-
-.para-img{
-    height: 10%;
-    width: 10%;
-}
-
-
-.Carousel .carousel .carousel-control{
-    visibility: hidden;
-    transition: all 0.1s ease 0s;
-    background: auto;
-    filter: progid: none;
-    height: 100px;
-    outline: 0;
-    width: 8%;
-}
-
-.carousel:hover .carousel-control{
-    visibility: visible; 
-}
-
-.Carousel{
-    padding-top: 30px;
-    margin-bottom: 50px;
-}
-
-.carousel-caption{
-    z-index: -1;
-}
-
-.carousel-inner > .item > img{
-    width: inherit;
-    height: 500px;
-
-}
-
-.carousel-inner > .item{
-    width: inherit;
-    height: inherit;
-}
-
-.carousel-caption{
-    margin-top: 20px;
-    background: rgba(0,0,0,0.4);
-    position: absolute;
-    min-height: 10px;
-}
-
-.para_2{
-    background: #444;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: justify;
-    vertical-align: middle;
-}
-
-.para-2-img{
-    height: 10%;
-    width: 10%;
-}
-
-.vm{
-    background: url("../images/vision-bg.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.tint-img{
-    background: rgba(0,0,0,0.3);
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
 }
