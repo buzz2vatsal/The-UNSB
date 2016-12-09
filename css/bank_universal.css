@@ -2,7 +2,7 @@ html, body{
     background-color: #EEEEEE;
 }
 
-h1, h2, h3, h4, h5, h6, li, a, btn, address, p{
+table, th, td,h1, h2, h3, h4, h5, h6, li, a, btn, address, p,.panel-group{
     color: #93ce33;
     font-family: 'Raleway', sans-serif;
 }
@@ -250,50 +250,13 @@ ul a{
     border: 1px solid white;
 }
 
-#fsc-modal .modal-body > table{
+.modal-body > table{
     border-collapse: collapse;
     width: 100%;
 }
 
-#fsc-modal .modal-body td, th{
+.modal-body td, th{
     border: 1px solid #ddd;
     text-align: justify;
     padding: 10px;
-}
-
-#developer-modal .modal-body{
-    background: #dedede;
-}
-
-#developer-modal .modal-body > table{
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#developer-modal .modal-body td, th{
-    padding: 10px;
-    text-align: justify;
-} 
-
-.developer{
-    text-align: center;
-    
-}
-
-.developer img{
-    display: inline-block;
-    height: 35px;
-    width: 35px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-#trapezoid {
-	border-bottom: 150px solid #444;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-    border-radius: 20px;
-	margin-top: -20px;
-	width: 100%;
 }
