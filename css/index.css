@@ -48,7 +48,7 @@
 }
 
 .imgPanel:hover{
-    box-shadow: rgba(0, 153, 230, 0.5) 2px 5px 5px 2px;
+    box-shadow: #93ce33 2px 5px 5px 2px;
 }
 
 
@@ -116,8 +116,8 @@
 
 .tint > .caption{
     text-align: justify;
-    top: 400px;
-    left: 100px;
+    top: 60%;
+    left: 10%;
     position: absolute;
 }
 
