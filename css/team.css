@@ -3,33 +3,30 @@
     width: 50%;
 }
 
+.tab-content{
+    margin:0px;
+}
+
 .tab-pane img, .tab-pane p{
     display: inline-table;
     vertical-align: middle;
     height: inherit;
+    color: black;
+}
+
+.teamClass a{
+    color: white;
 }
 
 .tab-pane p{
-    padding-left: 20px;
     font-size: 1.75vw;
+    padding-left: 20px;
 }
 
-.tab-pane img{
-    padding: 0;
-}
-
-#team > div{
-    background: #fff; 
-    margin-top:10px;
+.panel{
+    width: 100%;
+    vertical-align: middle;
     padding: 5px;
-    margin-bottom: 20px;
-}
-
-#leader > div{
-    background: #fff; 
-    margin-top:10px;
-    padding-left: 0;
-    margin-bottom: 20px;
 }
 /*
 

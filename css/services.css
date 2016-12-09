@@ -29,8 +29,13 @@
     position: absolute;
 }
 
-.SMS-tab th, td{
+#SMS-modal .modal-body > table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#SMS-modal .modal-body td, th{
+    padding: 10px;
     text-align: center;
     border: 1px solid #ddd;
-    padding: 10px;
-}
+} 
