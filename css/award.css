@@ -2,7 +2,13 @@
 	height:auto;
 }
 
+img{
+    height: 75%;
+    width: 75%;
+}
+
 .award{
-    height: 1000px;
-    width: 1000px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
