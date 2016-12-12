@@ -29,21 +29,26 @@ ul a{
 
 .nav.navbar-nav li a{
     color: #93ce33;
-    transition: all 0.3s ease 0s;
 }
 
 .nav.navbar-nav li a:hover{
-    color: #000;
-    background-color: #fff;
+    color: #fff;
 }
 
 .nav.navbar-nav li a:active{
     color: #93ce33;
-    transition: all 0.3s ease 0s;
 }
 
 .dropdown-menu{
     padding: 0px;
+}
+
+.dropdown-menu li a:hover{
+    background: #444;
+}
+
+.hvr-underline-reveal:before{
+    background: #93ce33;
 }
 
 #nav.affix {
