@@ -1,210 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Find Us on Maps</title> 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bank Website</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/find-us.css" rel="stylesheet">
-    <link href="css/hover-min.css" rel="stylesheet">
-    <link href="css/bank_universal.css" rel="stylesheet">  
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
-    <link rel="shortcut icon" type="image/png" href="images/favicon.jpg">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-      
-      <div class="container" style="background-color: #444; width: auto; height: 35px;">
-        <div class="row">
-            <div class="col-md-1"></div>
-            
-            <div class="col-md-5 col-sm-6">
-                    <h5 style="color: white; font-size: 14px;"><span class = "glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;<a href="tel: 02767-255900" style="color: white;">02767-255900</a>&nbsp;&nbsp;|&nbsp;
-                    <!--</h5>
-           
-                    <h5 style="color: white; font-size: 14px;">--><span class = "glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<a href = "mailto:nagrik_unava12@rediffmail.com" style="color: white;">nagrik_unava12@rediffmail.com</a><br>
-                    </h5>
-            </div>
-            
-            <div class="col-md-5 col-sm-5">
-                    <a href="emp_login.html"><div class="btn btn-primary" style="width: 200px; height: 35px; float:right; ">Employee Login</div></a>
-            </div>
-            
-        </div>
-      </div>
-
-<!--End of top strip-->      
-<div class="container" style="width:90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">
-      <div class="row">
-          <div class = "intro-block">
-                <div class = "container">
-                    <div class = "row">
-                        <div class = "col-md-2 col-sm-3">
-                            <a href="index.html"><img class="img-responsive tpad" src="images/UNSB_Grey.png" style="height: inherit; width: inherit" title="Home"></a>
-                        </div>
-
-                        <div class = "col-md-7 col-sm-7">
-                            <h1 style="color: white;">Find UNSB on Google Maps!</h1>
-                            <p class = "lead" style="color: white; font-size: 16px;">&nbsp;Home > Find Us</p>
-                        </div>
-
-                        <div class = "col-md-3 col-sm-2" style="padding-top: 25px;">
-                            <a href="login.html"><div class="btn btn-block"><h4 style="color: black;">Login</h4></div></a>
-                        </div>
-                    </div>
-                </div>    
-            </div> 
-        </div>
-    
-<!--End Intro-->
-      
-<!--Beginning of navbar-->
-      <div class="row">
-        <nav class = "navbar navbar-default navbar-full" role = "navigation">
-            <div class = "navbar-header">
-                <button type="button" class = "navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">                               <span class = "sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                
-            </div>
-        
-            <div class = "navbar-collapse collapse custnav" id="nav" role="navigation">
-                <a class = "navbar-brand" href="index.html"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
-                <ul class = "nav navbar-nav">
-                    <li class = "active"><a href = "index.html" class="button hvr-underline-reveal">Home</a></li>
-                    <li><a href = "#" class="button hvr-underline-reveal">Deposits</a></li>
-                    <li><a href = "#" class="button hvr-underline-reveal">Loans</a></li>
-                    <li><a href="services.html" class="button hvr-underline-reveal">Services</a></li>
-                    <li><a href="#" class="button hvr-underline-reveal">Interest Rates</a></li>
-                    <li><a href="#" class="button hvr-underline-reveal">Downloads</a></li>
-                    <li class = "dropdown">
-                    <a href = "#" onclick="return false" class = "dropdown-toggle hvr-underline-reveal" data-toggle = "dropdown">About Bank<b class = "caret"></b></a>
-                            <ul class = "dropdown-menu">
-                                <li><a href="about-us.html" class="button hvr-underline-reveal">About UNSB</a></li>
-                                <li><a href="bank-history.html" class="button hvr-underline-reveal">Bank History</a></li>
-                                <li><a href="vision.html" class="button hvr-underline-reveal">Vision &amp; Mission</a></li>
-                                <li><a href="chairman-msg.html" class="button hvr-underline-reveal">Chairman's message</a></li>
-                                <li><a href="#" class="button hvr-underline-reveal">Board of Directors</a></li>
-                                <li><a href="team.html" class="button hvr-underline-reveal">Current Team</a></li>
-                                <li><a href="#" class="button hvr-underline-reveal">Progress at a Glance</a></li>
-                                <li><a href="award.html" class="button hvr-underline-reveal">Awards &amp; Recognition</a></li>
-                                
-                            </ul>
-                    </li>
-                    
-                    <li class="dropdown">
-                    <a href = "#" onclick="return false" class = "dropdown-toggle hvr-underline-reveal" data-toggle = "dropdown">Customer Care<b class = "caret"></b></a>
-                            <ul class = "dropdown-menu">
-                                <li><a href="about-us.html" class="button hvr-underline-reveal">Branches</a></li>
-                                <li><a href="bank-history.html" class="button hvr-underline-reveal">Useful Links</a></li>
-                                <li><a href="about-us.html" class="button hvr-underline-reveal">Bank Holidays</a></li>
-                                <li><a href="#" class="button hvr-underline-reveal">Loan/EMI Calculator</a></li>
-                                <li><a href="faq.html" class="button hvr-underline-reveal">FAQ</a></li>
-                                <li><a href="team.html" class="button hvr-underline-reveal">Help &amp; Support</a></li>
-                                <li><a href="#" class="button hvr-underline-reveal">Feedback</a></li>
-                            </ul>
-                    </li>
-                    
-                </ul>
-                
-<!--                <p style="text-indent: 10em; padding-top: 15px; color: white;"><a href=Contact</p>-->
-            </div>
-          </nav>
-    </div>
-      </div>
-<!--Navigation bar end-->           
-
-<div class="container-fluid" style="max-width: 1250px;">
-    <div class="locator">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6" style="background-color: #444; height: 350px;">
-                    <address><br>
-                                <h3><b>The Unava Nagarik Sahakari Bank Ltd.</b></h3>
-                                Marketyard Compound,<br>At & Post :- Unava - 384160<br>
-                                Ta-Unjha Dist-Mehsana (N. Guj)<br><br>
-                                <b>Contact: </b>(O) <a href="tel: 02767-255900" title="Call office">02767-255900</a>, <a href="tel: 02767-258976" title="Call office">258976</a><br>
-                                <b>M. No.: </b><a href="tel: 9879246694" title="Call mobile">9879246694</a><br>
-                                <b>Fax :-</b>02767-258976<br>
-                                <b>Email: </b><a href="mailto: nagrik_unava12@rediffmail.com" title="Send direct mail">nagrik_unava12@rediffmail.com</a>
-                            </address><br>
-                </div>
-
-                <div class="col-md-4 col-sm-6" style="background-color: #444; height: 350px; padding-top: 20px;">
-                    <h4 style="color: white;">Find The UNSB on Google Maps!</h4>
-                        <div id="map"></div>
-                            <script>
-                                 function initMap() {
-                                    var uluru = {lat: 23.7707292, lng: 72.3648574};
-                                    var map = new google.maps.Map(document.getElementById('map'), {
-                                    zoom: 4,
-                                    center: uluru
-                                    });
-                                    var marker = new google.maps.Marker({
-                                    position: uluru,
-                                    map: map
-                                    });
-                                }
-                             </script>
-
-                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpZ_Q6TVPyBIWLMCl3Wjp_SWlmNcpSv5I&callback=initMap"></script>
-
-                </div>
-                
-                <div class="marquee-up col-md-4 col-sm-12" style="background-color: #444; height: 350px; padding-top:10px;">
-                    <h3 style="color: white"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Important Info</h3><hr>
-                    
-                        <marquee direction="up" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33; height: 210px;">
-                            <h5><li>This text is a demo of marquee.</li><br>
-                            <li>Hello there!</li><br>
-                            <li>This is a demo</li><br>
-                            <li>Lorem Ipsum, bro!</li><br>
-                            <li>Why the hell Latin?!</li><br>
-                            <li>Why couldn't they just use English!</li><br>
-                            <li>Lorem Ipsum again!</li><br>
-                            <li>Because why not?</li><br>
-                            <li>Haha! LOL. -_-</li><br>                                
-                            <li>Download form&nbsp;&raquo;&nbsp;<a href="login.html" style="color: #93ce33"><b>Click here</b></a></li><br></h5>
-                        </marquee>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-      
-<!--End of map container-->
+<!--Beginning of extra bar-->
       
 <div class="fa-icon">
-<div class="container">
-    <div class="row extra-bar">
-            
+    <div class="container">
+        <div class="row extra-bar">
+        
                 <div class="col-md-2">
-                    <a href="find-us.html" >
+                    <a href="find-us.php" >
                         <div class="hbox box1">
-                            <i class="fa fa-map-marker fa-4x" style="color: white;"></i><br>
+                            <i class="fa fa-map-marker fa-4x" style="color: white;"></i>
                             <h4>Find us</h4>
                         </div>
                     </a>
                 </div>
         
 
-            
                 <div class="col-md-2">
                     <a href="#" onclick="return false">
                         <div class="hbox box1" data-toggle="modal" data-target="#fsc-modal">
@@ -277,9 +86,8 @@
                         </div>
                     </a>
                 </div>
-
             
-                <div class="col-md-2">
+                <div class=" col-md-2">
                     <a href="#" >
                         <div class="hbox box1">
                             <i class="fa fa-exclamation fa-4x" style="color: white;"></i>
@@ -288,7 +96,7 @@
                     </a>
                 </div>
             
-                <div class="col-md-2">
+                <div class=" col-md-2">
                     <a href="#" >
                         <div class="hbox box1">
                             <i class="fa fa-question fa-4x" style="color: white;"></i>
@@ -296,14 +104,13 @@
                         </div>
                     </a>
                 </div>
-              
-        
     </div>
 </div>
 </div>      
-
       
 <!--End of fa block-->      
+      
+<!--Start of footer-->
       
 <div class="ftr">
     <div class="container-fluid" style="max-width: 1250px;"> 
@@ -311,9 +118,9 @@
             
             <footer>
                 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
-                         <a href="index.html"><img class="img-responsive tpad" title="Home" src="images/UNSB_White.png" style="width: 25%; height: 50%;"></a>
+                         <a href="index.php"><img class="img-responsive tpad" title="Home" src="images/UNSB_White.png" style="width: 25%; height: 50%;"></a>
                         <address><br>
                             <h3><b>The Unava Nagarik Sahakari Bank Ltd.</b></h3>
                             Marketyard Compound,<br>At & Post :- Unava - 384160<br>
@@ -327,8 +134,7 @@
                     </div>
                 </div>
                 
-                
-                <div class="col-md-3 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
                         <h3 style="color: #fff">Download forms</h3><hr>
                         <h4 style="color: #93ce33"><li><a href="#">Fixed deposit form</a></li><br>
@@ -339,7 +145,7 @@
                 </div>
                 
                 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
                         <h3 style="color: #fff">Quick links</h3><hr>
                         <h4 style="color: #93ce33"><li><a href="#">FAQs</a></li><br>
@@ -350,7 +156,7 @@
                 </div>
                 
                 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
                         <h3 style="color: #fff">Follow us on</h3><hr>
                         <div class="row" style="padding-left:20px;">
@@ -405,7 +211,7 @@
                                 </div>
                                 
                                 <div class="modal-body">
-                                    <div class="container" style="background: #fff; width: 65%; height: 320px; margin-top: 20px; margin-bottom: 20px; border: 10px solid #444;">
+                                    <div class="container" style="background: #fff; width: 65%; height: 320px; margin-top: 20px; margin-bottom: 20px; border: 10px solid #444; ">
                                         <table align ="justify" style="width: 100%;">
                                             <tr>
                                                 <td><h4 style="color: #444;">Pancham Khaitan</h4></td>
@@ -450,21 +256,50 @@
                         </div>
                     </div>
                 </div>
+                
+<!--
+            <div class="col-sm-6 col-md-3">
+                <address>
+                    <h3>The Unava Nagarik Sahakari Bank Ltd.</h3>
+                    Marketyard Compound,<br>At & Post :- Unava - 384160<br>
+                    Ta-Unjha Dist-Mehsana (N. Guj)<br><br>
+                    Contact: (O) 02767-255900, 258976<br>
+                    M. No.: 9879246694<br>
+                    Fax :- 02767-258976<br>
+                    Email: nagrik_unava12@rediffmail.com
+                </address>
+            </div>
 
-<!--End of footer-->
-      
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/style.js"></script>
-      <script>
-        $(function(){
-          $('.carousel').carousel({
-              interval: 4000
-          }); 
-          })
-        </script>
-  </body>
-</html>      
+            <div class="col-sm-6 col-md-6">
+                <h4 style="color: white;">Find The UNSB on Google Maps!</h4>
+                    <div id="map"></div>
+                        <script>
+                             function initMap() {
+                                var uluru = {lat: 23.7707292, lng: 72.3648574};
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 4,
+                                center: uluru
+                                });
+                                var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                                });
+                            }
+                         </script>
+                    
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpZ_Q6TVPyBIWLMCl3Wjp_SWlmNcpSv5I&callback=initMap"></script>
+                 
+            </div>
+
+            <div class="col-sm-4 col-md-3">
+                <a href="index.php"><img class="img-responsive tpad" src="images/UNSB_White.png" style="width: 25%; height: 50%;"></a><br>
+                <p>&copy;The Sluggish Sages Inc. 2016</p>
+            </div>
+-->
+                
+            </footer>
+        </div>
+    </div>      
+</div>
+<!--End of footer-->      
+           

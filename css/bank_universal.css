@@ -27,6 +27,11 @@ ul a{
     padding-right: 20px;  
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #93ce33;
+    background-color: #444;  
+}
+
 .nav.navbar-nav li a{
     color: #93ce33;
 }
@@ -38,6 +43,7 @@ ul a{
 .nav.navbar-nav li a:active{
     color: #93ce33;
 }
+
 
 .dropdown-menu{
     padding: 0px;
