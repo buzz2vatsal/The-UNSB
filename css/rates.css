@@ -1,0 +1,13 @@
+table ,th , td{
+	font-family: 'Raleway', sans-serif;
+	
+	border:1px solid black;
+	padding:10px; 
+}
+tr:nth-child(odd){
+	background-color: #444;
+	color: #93ce33;
+}
+tr:nth-child(even){
+	color:black;
+}

@@ -149,7 +149,7 @@
                     <div class="myPanel panel-default">
                         <h3 style="color: #fff">Quick links</h3><hr>
                         <h4 style="color: #93ce33"><li><a href="#">FAQs</a></li><br>
-                        <li><a href="#">Bank holidays</a></li><br>
+                        <li><a href="holiday.php">Bank holidays</a></li><br>
                         <li><a href="#">RTGS holidays</a></li><br>
                         <li><a href="http://www.ifsccodebank.com/" target="_blank">IFSC Code Finder</a></li></h4><br>
                     </div>

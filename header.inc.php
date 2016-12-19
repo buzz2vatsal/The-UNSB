@@ -67,7 +67,7 @@
                     <li><a href = "#" class="button hvr-underline-reveal">Deposits</a></li>
                     <li><a href = "#" class="button hvr-underline-reveal">Loans</a></li>
                     <li><a href="services.php" class="button hvr-underline-reveal">Services</a></li>
-                    <li><a href="#" class="button hvr-underline-reveal">Interest Rates</a></li>
+                    <li><a href="rates.php" class="button hvr-underline-reveal">Interest Rates</a></li>
                     <li><a href="#" class="button hvr-underline-reveal">Downloads</a></li>
                     <li class = "dropdown">
                     <a href = "#" onclick="return false" class = "dropdown-toggle hvr-underline-reveal" data-toggle = "dropdown">About Bank<b class = "caret"></b></a>
@@ -89,7 +89,7 @@
                             <ul class = "dropdown-menu">
                                 <li><a href="about-us.php" class="button hvr-underline-reveal">Branches</a></li>
                                 <li><a href="bank-history.php" class="button hvr-underline-reveal">Useful Links</a></li>
-                                <li><a href="about-us.php" class="button hvr-underline-reveal">Bank Holidays</a></li>
+                                <li><a href="holiday.php" class="button hvr-underline-reveal">Bank Holidays</a></li>
                                 <li><a href="#" class="button hvr-underline-reveal">Loan/EMI Calculator</a></li>
                                 <li><a href="faq.php" class="button hvr-underline-reveal">FAQ</a></li>
                                 <li><a href="team.php" class="button hvr-underline-reveal">Help &amp; Support</a></li>
