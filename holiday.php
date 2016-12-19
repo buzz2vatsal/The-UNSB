@@ -34,7 +34,7 @@
           
           <div class="col-md-6 col-md-offset-3">
               <h1 style="text-align:center; margin; 0 auto; padding: 0;">BANK HOLIDAYS OF THE YEAR 2017</h1>
-              <iframe src="pdf/1.pdf" style="align:center;width:100%; height: 800px;"></iframe>
+              <iframe src="pdf/1.pdf" style="align:center;width:100%; height: 635px;"></iframe>
           </div>
           <div class="col-md-3">
               

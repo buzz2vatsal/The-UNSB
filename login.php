@@ -36,7 +36,14 @@
     <div class="panel panel-default" style="max-width: 350px; padding-bottom:10px; margin: 20px 0 40px 0;">
     <form class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
-        
+        	<div class="row" style="padding-top: 5px;padding-bottom:15px;">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#user">User Login</a></li>
+                <li><a data-toggle="tab" href="#admin">Admin Login</a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div id="user" class="tab-pane fade in active">
             <label for="inputEmail" class="sr-only">Email address</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
             
@@ -53,7 +60,25 @@
         
             <a href="https://www.forgotpassword.com" style="float: right">Forgot password?</a><br><br>
         
-        <center><h5>Don't have an account? <a href="www.signup.php"><b>Sign up now!</b></a></h5></center>
+            </div>
+            <div id="admin" class="tab-pane fade">
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+            
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+        
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        
+            <a href="https://www.forgotpassword.com" style="float: right">Forgot password?</a><br><br>
+            </div>
+        </div>
     </form>    
 </div>
 </div> 
