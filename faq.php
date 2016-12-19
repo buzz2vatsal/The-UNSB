@@ -25,7 +25,7 @@
     <![endif]-->
   </head>
   <body>
-      <?php include 'header.inc.php'; ?>
+      <?php include 'header.php'; ?>
       </div>
       
       
@@ -230,7 +230,7 @@
 
       
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
           
            

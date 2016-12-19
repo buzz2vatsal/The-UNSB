@@ -27,7 +27,7 @@
   <body>
       
       <?php
-        include 'login-header.inc.php';
+        include 'login-header.php';
     ?> 
       </div>
 
@@ -63,7 +63,7 @@
       
                  
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
         
            

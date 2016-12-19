@@ -14,7 +14,7 @@
 </head>
 <body>
 <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>      
  
 <!--Start of main award section-->  
@@ -42,7 +42,7 @@
 <!--End of main award section-->
     
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
      
 

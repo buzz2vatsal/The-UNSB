@@ -14,7 +14,7 @@
 </head>
 <body>
 <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>      
     </div>
  
@@ -122,7 +122,7 @@
 <!--End of team board-->
     
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
      
 

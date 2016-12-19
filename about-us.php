@@ -27,7 +27,7 @@
   <body>
       
       <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>   
 
 <!--Start of about us bar-->
@@ -69,7 +69,7 @@
 <!--End of about us bar-->      
       
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
          
            

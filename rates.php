@@ -27,77 +27,80 @@
   <body>
 
     <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>
+      </div>
+      <h1 style="text-align: center;">Interest Rates</h1>
+      
 <div class="interest_table" style="margin-top:20px; margin-bottom:20px; color:black;">
     <div class="row">
-    <div class="col-md-8">
-        <table id="rates" style="width:100%;">
-            <tr style="text-align:center;">
-                <td ><strong>Sr no.</strong></td>
-                <td ><strong>Types of Loans/Advances</strong></td>
-                <td ><stong>Interest Rates</stong></td>
+    <div class="col-md-8 col-md-offset-2">
+        <table id="rates" style="width:100%; text-align:center;">
+            <tr>
+                <td><strong>Sr no.</strong></td>
+                <td><strong>Types of Loans/Advances</strong></td>
+                <td><stong>Interest Rates</stong></td>
             </tr>
             <tr>
                 <td><strong>1.</strong></td>
-                <td>Cash Credit Loan(Self Security)</td>
+                <td><strong>Cash Credit Loan(Self Security)</strong></td>
                 <td>13.50% (Max: 20,000)</td>
             </tr>
             <tr>
                 <td><strong>2.</strong></td>
-                <td>Industrial Loan<br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
+                <td><strong>Industrial Loan</strong><br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
                 <td><br>13.50%<br>14.00%</td>
             </tr>
             <tr>
                 <td><strong>3.</strong></td>
-                <td>Housing Loan</td>
+                <td><strong>Housing Loan</strong></td>
                 <td>Only for staff</td>
             </tr>
             <tr>
                 <td><strong>4.</strong></td>
-                <td>Loan against NSC/KVP/UTI/RBI BOND<br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
+                <td><strong>Loan against NSC/KVP/UTI/RBI BOND</strong><br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
                 <td><br>13.50%<br>14.00%</td>
             </tr>
             <tr>
                 <td><strong>5.</strong></td>
-                <td>Loan against Fixed-deposit</td>
+                <td><strong>Loan against Fixed-deposit</strong></td>
                 <td></td>
             </tr>
             <tr>
                 <td><strong>6.</strong></td>
-                <td>Hypothecation Loan<br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
+                <td><strong>Hypothecation Loan</strong><br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
                 <td><br>13.50%<br>14.00%</td>
             </tr>
             
             <tr>
                 <td><strong>7.</strong></td>
-                <td>Vehicle</td>
+                <td><strong>Vehicle</strong></td>
                 <td>11.05%</td>
             </tr>
             <tr>
                 <td><strong>8.</strong></td>
-                <td>Fixed-Rate Mortgage Loan<br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
+                <td><strong>Fixed-Rate Mortgage Loan</strong><br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
                 <td><br>13.50%<br>14.00%</td>
             </tr>
             <tr>
                 <td><strong>9.</strong></td>
-                <td>Loan against Overdraft</td>
+                <td><strong>Loan against Overdraft</strong></td>
                 <td></td>
             </tr>
             <tr>
                 <td><strong>10.</strong></td>
-                <td>Gold Loan<br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
+                <td><strong>Gold Loan</strong><br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
                 <td><br>13.50%<br>14.00%</td>
             </tr>
             
             <tr>
                 <td><strong>11.</strong></td>
-                <td>Loan agianst Stock-in-trade<br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
+                <td><strong>Loan agianst Stock-in-trade</strong><br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
                 <td><br>13.50%<br>14.00%</td>
             </tr>
             <tr>
                 <td><strong>12.</strong></td>
-                <td>Fixed Rate term Loan<br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
+                <td><strong>Fixed Rate term Loan</strong><br>Less than ₹2,00,000<br>More than ₹2,00,000</td>
                 <td><br>13.50%<br>14.00%</td>
             </tr>
         </table>
@@ -113,7 +116,7 @@
 
 
     <?php
-        include 'footer.inc.php';
+        include 'footer.php';
     ?>
      <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -27,7 +27,7 @@
   <body>
       
       <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?> 
       </div>
 
@@ -78,7 +78,7 @@
 <!--Chairman's message end block-->      
     
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
          
            

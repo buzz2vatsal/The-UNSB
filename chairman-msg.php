@@ -26,7 +26,7 @@
   <body>
       
       <?php
-        include 'header.inc.php';
+        include 'header.php';
       
     ?>
 
@@ -83,7 +83,7 @@
 <!--End of chairman's message block-->
       
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
      
       

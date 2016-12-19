@@ -27,7 +27,7 @@
   <body>
       
       <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>
 
       </div>
@@ -419,7 +419,7 @@
 <!--End of services bar-->
       
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
      
       

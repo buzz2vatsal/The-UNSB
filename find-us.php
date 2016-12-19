@@ -27,7 +27,7 @@
   <body>
       
       <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>          
 
       </div>
@@ -94,7 +94,7 @@
 <!--End of map container-->
       
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
      
       

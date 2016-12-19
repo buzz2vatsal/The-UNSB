@@ -26,17 +26,15 @@
   <body>
 
     <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>
-
+      
     <div class="holidays" style="padding-top:20px; padding-bottom:20px;">
       <div class="row">
-          <div class="col-md-3">
-              
-          </div>
-          <div class="col-md-6">
-              <h1 style="text-align:center;">BANK HOLIDAYS OF THE YEAR 2017</h1>
-              <iframe src="http://localhost/The-UNSB/pdf/1.pdf" style="align:center;width:100%;height:630px;"></iframe>
+          
+          <div class="col-md-6 col-md-offset-3">
+              <h1 style="text-align:center; margin; 0 auto; padding: 0;">BANK HOLIDAYS OF THE YEAR 2017</h1>
+              <iframe src="pdf/1.pdf" style="align:center;width:100%; height: 800px;"></iframe>
           </div>
           <div class="col-md-3">
               
@@ -44,9 +42,9 @@
       </div>
     </div>
 
-
+</div>
     <?php
-        include 'footer.inc.php';
+        include 'footer.php';
     ?>
      <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -28,7 +28,7 @@
   <body>
       
       <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>   
 
 <!--Paragraph start-->
@@ -185,7 +185,7 @@
 <!--Second Paragraph end-->
       
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
      
       

@@ -27,7 +27,7 @@
   <body>
 
     <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>
       
 <!--Beginning of first carousel-->
@@ -342,7 +342,7 @@
 -->
       
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
       
 <!--Download form end-->      
