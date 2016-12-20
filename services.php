@@ -29,8 +29,6 @@
       <?php
         include 'header.php';
     ?>
-
-      </div>
       
 <!--Start of services bar-->
 <div class="container-fluid" style="width: 90%; background-color: #444; margin-bottom:20px; padding-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">    

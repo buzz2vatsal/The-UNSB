@@ -27,7 +27,7 @@
   <body>
       
       <?php
-        include 'login-header.php';
+        include 'login-header.inc.php';
     ?> 
       </div>
 
@@ -35,8 +35,8 @@
     <div class="col-md-4 center">
     <div class="panel panel-default" style="max-width: 350px; padding-bottom:10px; margin: 20px 0 40px 0;">
     <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        	<div class="row" style="padding-top: 5px;padding-bottom:15px;">
+        <h2 class="form-signin-heading">Please sign in</h2> 
+        <div class="row" style="padding-top: 5px;padding-bottom:15px;">
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#user">User Login</a></li>
                 <li><a data-toggle="tab" href="#admin">Admin Login</a></li>
@@ -88,7 +88,7 @@
       
                  
 <?php
-    include 'footer.php';
+    include 'footer.inc.php';
 ?>
         
            

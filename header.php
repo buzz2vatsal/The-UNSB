@@ -65,10 +65,10 @@
                 <ul class = "nav navbar-nav">
                     <li class = "active"><a href = "index.php" class="button hvr-underline-reveal">Home</a></li>
                     <li><a href = "#" class="button hvr-underline-reveal">Deposits</a></li>
-                    <li><a href = "#" class="button hvr-underline-reveal">Loans</a></li>
                     <li><a href="services.php" class="button hvr-underline-reveal">Services</a></li>
                     <li><a href="rates.php" class="button hvr-underline-reveal">Interest Rates</a></li>
                     <li><a href="#" class="button hvr-underline-reveal">Downloads</a></li>
+                     <li><a href="loan.php" class="button hvr-underline-reveal">Loans</a></li>
                     <li class = "dropdown">
                     <a href = "#" onclick="return false" class = "dropdown-toggle hvr-underline-reveal" data-toggle = "dropdown">About Bank<b class = "caret"></b></a>
                             <ul class = "dropdown-menu">
