@@ -1,0 +1,75 @@
+.service{
+    text-align: center;
+}
+
+.panel{
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.panel:hover{
+    box-shadow: #93ce33 2px 5px 5px 2px;
+}
+
+.service h3, .service p, .service li, .service address, .service a{
+    text-align: left;
+    color: black;
+}
+
+.service img{
+    width: 100%;
+}
+.caption{
+    background: rgba(0,0,0,0.7);
+    padding: 5px;
+    width: inherit;
+    top: 50%;
+    left: 10%;
+    position: absolute;
+}
+.detail{
+    background-color: #444;
+}
+ul,li, nav,a{margin:0;padding:0;}
+a{text-decoration:none; font-family:'Raleway',sans-serif; }
+
+
+#vertical-menu{
+    width: 90%;
+  margin-top:20px;
+  display:inline-block;
+  border-radius:5px;
+  box-sizing:border-box;
+  padding-right:10px;
+  background:#089FD6;
+  margin-left:20px;
+}
+.main-menu {
+ display:inline-block;
+width:100%;
+  box-sizing:border-box;
+  
+}
+.main-menu li{
+  position:relative;
+  height:50px;
+  box-shadow:0 -1px 0 0 #444, 0 -2px 0 0 #222;
+}
+.main-menu>li>a>i{
+  color:#db0a5b;
+  width:2em;
+  height:100%;
+  line-height:50px;
+  text-align:left; 
+}
+.main-menu>li>a{
+  color:#089FD6;
+  background:#2a2a2a;
+  line-height:50px;
+  display:block;
+  padding:0 1em;
+ 
+}
+li.active a{
+    background-color:green;
+}
