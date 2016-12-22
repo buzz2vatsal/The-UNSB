@@ -1,12 +1,12 @@
-table ,th , td{
+#rates table ,th , td{
 	font-family: 'Raleway', sans-serif;
 	border:1px solid black;
 	padding: 10px; 
 }
-tr:nth-child(odd){
+#rates tr:nth-child(odd){
 	background-color: #444;
 	color: #93ce33;
 }
-tr:nth-child(even){
+#rates tr:nth-child(even){
 	color:black;
 }

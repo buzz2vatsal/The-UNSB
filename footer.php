@@ -211,7 +211,7 @@
                                 </div>
                                 
                                 <div class="modal-body">
-                                    <div class="container" style="background: #fff; width: 65%; height: 320px; margin-top: 20px; margin-bottom: 20px; border: 10px solid #444; ">
+                                    <div class="container" style="background: #fff; width: 65%; height: inherit; margin-top: 20px; margin-bottom: 20px; border: 10px solid #444; ">
                                         <table align ="justify" style="width: 100%;">
                                             <tr>
                                                 <td><h4 style="color: #444;">Pancham Khaitan</h4></td>
