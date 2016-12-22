@@ -85,7 +85,22 @@
         </ul>
     </div>
     <div class="col-md-4">
-        
+        <nav id="vertical-menu">
+    <ul class="main-menu">
+      <li ><a href="goldloan.php">Gold Loan</a></li>
+      <li><a href="industrialloan.php">Industrial Loan</a></li>
+      <li class="active"><a href="housingloan.php">Housing Loan</a></li>
+      <li><a href="hypothecationloan.php">Hypothecation Loan</a></li>
+      <li><a href="rbibondloan.php">Loan against NSC/KVP/UTI/RBI BOND</a></li>
+      <li ><a href="vehicleloan.php">Vehicle Loan</a></li>
+      <li><a href="cashcreditloan.php">Cash Credit Loan</a></li>
+      <li><a href="mortgage.php">Fixed Rate Mortgage Loan</a></li>
+      <li><a href="depositloan.php">Loan against Fixed Deposit</a></li>
+      <li><a href="stockloan.php">Loan against Stock-in-trade</a></li>
+      <li><a href="termloan.php">Fixed Rate Term Loan</a></li>
+      <li><a href="overdraftloan.php">Loan against Overdraft</a></li>  
+    </ul>
+  </nav>
     </div>
 
 
