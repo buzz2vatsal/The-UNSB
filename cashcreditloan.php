@@ -12,8 +12,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">  
-    <link href="css/loan.css" rel="stylesheet">
     <link href="css/bank_universal.css" rel="stylesheet">  
+    <link href="css/loan.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
     <link rel="shortcut icon" type="image/png" href="images/favicon.jpg">
       
