@@ -307,11 +307,8 @@ ul a{
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-radius: 20px;
-<<<<<<< HEAD
 	margin-top: -20px;
 	width: inherit;
-=======
     margin-top: -20px;
     width: 100%;
->>>>>>> d2f38d01c2f87275daa5036f500077cd1b1d818a
 }
