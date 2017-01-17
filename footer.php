@@ -1,7 +1,7 @@
 <!--Beginning of extra bar-->
       
 <div class="fa-icon">
-    <div class="container">
+    <div class="container" style="width:100%;">
         <div class="row extra-bar">
         
                 <div class="col-md-2">
@@ -113,7 +113,7 @@
 <!--Start of footer-->
       
 <div class="ftr">
-    <div class="container-fluid" style="max-width: 1250px;"> 
+    <div class="container-fluid" style="width:100%;"> 
         <div class="row">
             
             <footer>

@@ -14,7 +14,7 @@
 </head>
 <body>
 <?php
-        include 'header.inc.php';
+        include 'header.php';
     ?>      
     </div>
  
@@ -66,7 +66,7 @@
                                 <img class="img-responsive" src="images/sq_7.jpg">
                                 <p>
                                     Varis Bhalala,<br>
-                                    <small>Headache</small>
+                                    <small>Analyzer</small>
                                 </p>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                                 <img class="img-responsive" src="images/sq_8.jpg">
                                 <p>
                                     Varis Bhalala,<br>
-                                    <small>Headache</small>
+                                    <small>Manager</small>
                                 </p>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
 <!--End of team board-->
     
 <?php
-    include 'footer.inc.php';
+    include 'footer.php';
 ?>
      
 
