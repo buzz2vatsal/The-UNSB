@@ -103,4 +103,5 @@
             </div>
           </nav>
     </div>
+    </div>
 <!--Navigation bar end-->  

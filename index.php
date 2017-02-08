@@ -31,7 +31,7 @@
     ?>
       
 <!--Beginning of first carousel-->
-      
+      <div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">
         <div class="row">
             <div class = "carouselInfo" style="margin-top: 5px; ">
                 <div class="col-md-8 col-sm-12" style="padding: 0;">

@@ -29,7 +29,6 @@
       <?php
         include 'login-header.php';
     ?>
-    </div>
 
 <div class="container">
     <div class="col-md-4 center">
@@ -56,7 +55,7 @@
         </div>
     </div> 
 </div>
-      </div>
+
  
 <!--Form end-->
 

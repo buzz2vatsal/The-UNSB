@@ -18,7 +18,7 @@
     ?>      
  
 <!--Start of main award section-->  
-    
+<div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px"> 
 <div class="row award">
     <h2 style="text-align: center; color: black; margin: 20px;">Awards and Recognition</h2>
     

@@ -30,8 +30,7 @@
         include 'header.php';
     ?>
 <div class="row"></div>
-   <div class="container-fluid" style="width: 100%; background-color: #444; margin-top:20px;margin-bottom:20px; padding-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">    
-    <h2 style="text-align: center; padding-top:10px;">Loans</h2>
+   <div class="container-fluid" style="width: 90%; background-color: #444; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px"> <h2 style="text-align: center; padding-top:10px;">Loans</h2>
     <div class="service">
         <div class="col-md-4" >
             <div class="panel panel-default">

@@ -1,5 +1,4 @@
 <!--Beginning of extra bar-->
-      
 <div class="fa-icon">
     <div class="container" style="width:100%;">
         <div class="row extra-bar">

@@ -32,7 +32,7 @@
     ?>   
 
 <!--Paragraph start-->
-
+<div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">
 <div class="row">
     <div class="para">
         

@@ -31,7 +31,8 @@
     ?>   
 
 <!--Start of about us bar-->
-    <div class="col-md-8 abt-bank">
+    <div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">
+      <div class="col-md-8 abt-bank">
         <h3><strong>About UNSB</strong></h3>
         <p>Lorem Ipsum Established in the year 1982 with an authorized Share Capital of Rs. 25.00 lacs and the paid up Share Capital of Rs. 4.00 lacs  The Sarvodaya Sahakari Bank Ltd., Surat is rightly bracketed as one of the leading and top-most co-op. banks of the city.<br>
             From a small rental place into the centrally air-conditioned well equipped premises, Bank had leapfrogged in the year 1991. To meet with the high-tech demand of the time, Bank got fully computerized in the year 1993 and gratified the inhabitants of the City with its efficient services. Thereafter many Banks took a leaf out of it and got themselves computerized.

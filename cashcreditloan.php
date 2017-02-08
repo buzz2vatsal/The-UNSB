@@ -29,6 +29,7 @@
     <?php
         include 'header.php';
     ?>
+    <div class="container-fluid" style="width: 90%; background-color: #444; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">
     <div class="detail" style="padding-left: 20px; margin-top:10px; margin-bottom:10px;padding-top:10px;padding-bottom:10px;">
      <h2 style="text-align:center">Cash Credit Loan</h2>
     <div class="row">

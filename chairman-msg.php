@@ -30,9 +30,8 @@
       
     ?>
 
-      </div>
+<div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">
 <!--Start of chairman's message block-->
-<div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; padding-bottom: 20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px"> 
     <div class="container" style="margin-top: 10px;">
         <div class="row">
             <h2><strong>Chairman's message</strong></h2>

@@ -87,7 +87,11 @@
                                 <div class="col-md-6">
                                     <div class="panel panel-default facebook">
                                         <i class="fa fa-facebook fa-3x"></i>
-                                        <div class="caption"><span>1022</span><br>Likes</div>
+                                        <div class="caption">
+                                            Likes
+                                            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FWindows-10-News-148333451920206%2F&width=88&layout=button_count&height=21&appId" width="88" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </div>
+                                        
                                     </div>
                                 </div>
                                 
@@ -146,6 +150,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/style.js"></script>
+    <script type="text/javascript" src="js/plugin-script.js"></script>
     <script type="text/javascript" src="js/calendar.js"></script>  
   </body>
 </html>

@@ -3,8 +3,8 @@ $(document).ready(function(){
       //if you hard code, then use console
       //.log to determine when you want the
       //nav bar to stick.
-     console.log($(window).scrollTop())
-    if ($(window).scrollTop() > 215) {
+     console.log($(window).scrollTop());
+   if ($(window).scrollTop() > 218) {
       $('#nav_bar').addClass('navbar-fixed');
       $("#nav").addClass('navbar-fixed2');
       $("#down").hide();
@@ -15,18 +15,16 @@ $(document).ready(function(){
       $("#down").show();
     }
   });
-$(window).scroll(function(){ 
-    if ($(this).scrollTop() > 300) { 
-        $('#scroll').fadeIn(); 
-    } else { 
-        $('#scroll').fadeOut(); 
-    } 
+    
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 300) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    });
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 1100); 
+        return false; 
+    });
 });
-$('#scroll').click(function(){ 
-    $("html, body").animate({ scrollTop: 0 }, 1100); 
-    return false; 
-});
-
-
-});
-

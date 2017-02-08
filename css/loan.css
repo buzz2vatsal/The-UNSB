@@ -32,9 +32,6 @@ h1, h2, h3, h4, h5, h6, li, a, btn, address, p ,.panel-group{
     left: 10%;
     position: absolute;
 }
-.detail{
-    background-color: #444;
-}
 ul,li, nav,a{margin:0;padding:0;}
 a{text-decoration:none; font-family:'Raleway',sans-serif; }
 
