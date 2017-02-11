@@ -3,10 +3,7 @@
 	border:1px solid black;
 	padding: 10px; 
 }
-#rates tr:nth-child(odd){
+#rates1 {
 	background-color: #444;
 	color: #93ce33;
-}
-#rates tr:nth-child(even){
-	color:black;
 }

@@ -36,7 +36,7 @@
     <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <table id="rates" style="width:100%; text-align:center;">
-            <tr>
+            <tr id="rates1">
                 <td><strong>Sr no.</strong></td>
                 <td><strong>Types of Loans/Advances</strong></td>
                 <td><stong>Interest Rates</stong></td>
