@@ -22,7 +22,7 @@
                     </a>
                     
                     <div class="modal fade" id="fsc-modal" role="dialog">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog" style="margin-top: 70px;">
                             
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -201,7 +201,7 @@
                     </a>
                     
                     <div class="modal fade" id="developer-modal" role="dialog">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog" style="margin-top: 70px;">
                             
                             <div class="modal-content">
                                 <div class="modal-header" style="background: #000;">

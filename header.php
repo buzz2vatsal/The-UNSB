@@ -1,4 +1,7 @@
-
+<?php
+session_start();
+$_SESSION['Ulogin_user']="123";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,12 +74,12 @@ body {
                         <div class = "col-xs-3" style="padding-top: 25px;" >
                           <!--  <a href="login.php"><div class="btn btn-block"><h4 style="color: black;font-size: 1.5vw;">Login</h4></div></a>
                           -->
-                          <button href="#" class="buttonLogin">
+                          <button href="login.php" class="buttonLogin">
                              <?php
                             if(!isset($_SESSION['Ulogin_user']))
-                                 echo "<span>Login</span>";
+                                 echo "<span style=\"font-size:2.0vw;\">Login</span>";
                                 else
-                                  echo "<span>Log out</span>";
+                                  echo "<span style=\"font-size:1.8vw;\">Log out</span>";
                                   ?>
                             </button>
                         </div>
