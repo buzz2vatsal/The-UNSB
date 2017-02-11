@@ -1,0 +1,37 @@
+.body{
+	height:auto;
+}
+
+.award{
+    background: #dedede;
+    padding-bottom: 30px;
+}
+
+.row1 > img{
+    display: block;
+    height: 350px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2{
+    text-align: center;
+}
+
+.row2 > img{
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    vertical-align:middle;
+    width: 350px;
+    height: 350px;
+}
+
+.row3 > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 350px;
+}

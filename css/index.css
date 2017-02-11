@@ -1,0 +1,134 @@
+.carouselInfo .carousel-control{
+    visibility: hidden;
+    transition: all 0.1s ease 0s;
+    background: auto;
+    height: 100px;
+    outline: 0;
+    width: 8%;
+    top: 35%;
+}
+
+.carouselInfo:hover .carousel-control{
+    visibility: visible;
+}
+
+.carousel-caption{
+    z-index: 1;
+}
+
+.carousel-inner > .item > img{
+    width: inherit;
+    height: 500px;
+
+}
+
+.carousel-inner > .item{
+    width: inherit;
+    height: inherit;
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    min-height: 10px;
+}
+
+.marquee-up{
+    background-color: #444; 
+    height: 500px; 
+    padding-top:10px;
+    
+}
+.imgPanel{
+    background-color: white;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: all 0.4s ease 0s;
+}
+
+.imgPanel img{
+    transition: all 0.4s ease 0s;
+}
+
+.imgPanel:hover img{
+    box-shadow: #93ce33 2px 5px 5px 2px;
+}
+
+.secondCarousel .carousel .carousel-control{
+    visibility: hidden;
+    transition: all 0.1s ease 0s;
+    background: auto;
+    filter: progid: none;
+    height: 100px;
+    outline: 0;
+    width: 8%;
+}
+
+.carousel:hover .carousel-control{
+    visibility: visible;
+    
+}
+
+.img{
+    padding-top: 30px;
+    height: relative;
+    padding-bottom: 10px;
+}
+
+.secondCarousel{
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+
+#anotherCarousel .carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.parallax_1{
+    background: url("../images/family.jpg");
+    min-height: 700px;
+}
+
+.parallax_2{
+    background: url("../images/parallax2.jpg");
+    min-height: 700px;
+}
+
+.parallax_1, .parallax_2{
+    position: relative;
+    margin-top: 5px;
+    opacity: rgba(0,0,0,0.4);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tint{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;       
+}
+
+.tint > .caption{
+    text-align: justify;
+    top: 60%;
+    left: 10%;
+    position: absolute;
+}
+
+.caption span.border{
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.5);
+    color: #93ce33;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}

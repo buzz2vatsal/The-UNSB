@@ -1,0 +1,43 @@
+.tab-content img{
+    height: 50%;
+    width: 50%;
+}
+
+.tab-content{
+    margin:0px;
+}
+
+.tab-pane img, .tab-pane p{
+    display: inline-table;
+    vertical-align: middle;
+    height: inherit;
+    color: black;
+}
+
+.teamClass a{
+    color: white;
+}
+
+.tab-pane p{
+    font-size: 1.75vw;
+    padding-left: 20px;
+}
+
+.panel{
+    width: 100%;
+    vertical-align: middle;
+    padding: 5px;
+}
+/*
+
+@media(min-width: 768px){
+    .tab-pane p{font-size: 20px;}
+}
+
+@media (max-width: 768px){
+    .tab-pane p{font-size: 16px;}
+}
+
+@media (max-width: 480px){
+    .tab-pane p{font-size: 12px;}
+}*/

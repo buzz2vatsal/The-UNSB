@@ -1,0 +1,41 @@
+.service{
+    text-align: center;
+}
+
+.panel{
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.panel:hover{
+    box-shadow: #93ce33 2px 5px 5px 2px;
+}
+
+.service h3, .service p, .service li, .service address, .service a{
+    text-align: left;
+    color: black;
+}
+
+.service img{
+    width: 100%;
+}
+
+.caption{
+    background: rgba(0,0,0,0.7);
+    padding: 5px;
+    width: inherit;
+    top: 50%;
+    left: 10%;
+    position: absolute;
+}
+
+#SMS-modal .modal-body > table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#SMS-modal .modal-body td, th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+} 

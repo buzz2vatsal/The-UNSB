@@ -1,0 +1,9 @@
+#rates table ,th , td{
+	font-family: 'Raleway', sans-serif;
+	border:1px solid black;
+	padding: 10px; 
+}
+#rates1 {
+	background-color: #444;
+	color: #93ce33;
+}

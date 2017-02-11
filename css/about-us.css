@@ -1,0 +1,28 @@
+.abt-bank h3, .abt-bank p{
+    color: black;
+    line-height: 200%;
+}
+
+.chairman{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #dedede;
+}
+
+.chairman img{
+    height: 40%;
+    width: 40%;
+}
+
+.chairman h4, .chairman p{
+    color: black;
+    text-align: center;
+    line-height: 200%;
+    padding: 10px;
+}
+
+.chairman img, .chairman h4{
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
