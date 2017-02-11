@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-<?php
-session_start();
-$_SESSION['Ulogin_user']="123";
-?>
-=======
 
->>>>>>> 01cfb91435bf9538f7fcab6c2dbe3722863906f8
 <!DOCTYPE html>
 <html>
 <head>

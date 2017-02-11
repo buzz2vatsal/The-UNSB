@@ -1,0 +1,12 @@
+.links{
+    text-align: center;
+}
+
+.links > .panel{
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.links  > .panel:hover{
+    box-shadow: #93ce33 2px 5px 5px 2px;
+}
