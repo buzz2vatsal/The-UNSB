@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+/*body { font-family: "Raleway", sans-serif; font-size: 24px; }*/ 
+p    { text-align: center; }
+sup  { 
+	font-size: 80px; 
+	font-weight: 100; 
+	line-height: 55px; 
+	}
+
+.buttonLogin
+{
+	font-family: "Raleway", sans-serif; font-size: 24px;
+	text-decoration: none;
+	vertical-align: middle;	
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #0C5;
+  margin-left: 70px;
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  
+  /*margin: 5em auto;*/
+  
+  /*position: absolute; */
+  /*top:0; right:0; bottom:0; left:0;*/
+  
+  padding: 20px 0;
+  width: 190px;
+  height: auto;
+
+  background: #a4c639;
+  border: 1px solid green;
+  color: #FFF;
+  overflow: hidden;
+  
+  transition: all 0.5s;
+}
+
+.buttonLogin:hover, .buttonLogin:active 
+{
+  text-decoration: none;
+  color: #444;
+  border-color: green;
+  background: #FFF;
+}
+
+.buttonLogin span 
+{
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+  
+  transition: padding-right 0.5s;
+}

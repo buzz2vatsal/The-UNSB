@@ -1,19 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 90%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  </style>
+  <link href="css/abc.css" rel="stylesheet">
+    <?php
+    if(isset($_SESSION['Ulogin_user'])){ 
+     echo "<link href=\"css\efg.css\" rel=\"stylesheet\">";
+  }
+    ?>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+
 <!--beginning of top strip-->      
       <div class="container" style="background-color: #444; width: auto; height: 35px;">
         <div class="row">
             <div class="col-md-1"></div>
             
             <div class="col-md-5 col-sm-6">
-                    <h5 style="color: white; font-size: 14px;"><span class = "glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;<a href="tel: 02767-255900" style="color: white;">02767-255900</a>&nbsp;&nbsp;|&nbsp;
+                    <h5 style="color: white; font-size: 14px;"><span class = "glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;<a href="tel: 02767-255900" style="color: white;font-size: 1.0vw">02767-255900</a>&nbsp;&nbsp;|&nbsp;
                     <!--</h5>
            
-                    <h5 style="color: white; font-size: 14px;">--><span class = "glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<a href = "mailto:nagrik_unava12@rediffmail.com" style="color: white;">nagrik_unava12@rediffmail.com</a><br>
+                    <h5 style="color: white; font-size: 14px;">--><span class = "glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<a href = "mailto:nagrik_unava12@rediffmail.com" style="color: white;font-size: 1.0vw">nagrik_unava12@rediffmail.com</a><br>
                     </h5>
             </div>
             
-            <div class="col-md-5 col-sm-5">
-                    <a href="emp_login.php"><div class="btn btn-primary" style="width: 200px; height: 35px; float:right;">Employee Login</div></a>
-            </div>
+            
             
         </div>
       </div>
@@ -28,18 +59,28 @@
           <div class = "intro-block">
               <div class="container">
                     <div class = "row">
-                        <div class = "col-md-2 col-sm-3">
-                            <a href="index.php"><img class="img-responsive tpad" src="images/UNSB_Grey.png" style="height: inherit; width: inherit" title="Home"></a>
+                        <div class = "col-xs-2" id="image">
+                            <a href="index.php"><img class="img-responsive tpad" src="images/UNSB_Grey.png" style="height: inherit; width: inherit;" title="Home"></a>
                         </div>
 
-                        <div class = "col-md-7 col-sm-7">
-                            <h1 style="color: white;">The Unava Nagrik Sahakari Bank Ltd.</h1>
-                            <p class = "lead" style="color: white; font-size: 16px;">&nbsp;Registration no.: XYZ123</p>
+                        <div class = "col-xs-7" id="name">
+                            <p style="color: white;font-size:2.5vw; text-align: left;">The Unava Nagrik Sahakari Bank Ltd.</p>
+                            <p style="color: white; font-size: 1.2vw;text-align: left;" >Registration no.: XYZ123</p>
                         </div>
 
-                        <div class = "col-md-3 col-sm-2" style="padding-top: 25px;">
-                            <a href="login.php"><div class="btn btn-block"><h4 style="color: black">Login</h4></div></a>
+                        <div class = "col-xs-3" style="padding-top: 25px;" >
+                          <!--  <a href="login.php"><div class="btn btn-block"><h4 style="color: black;font-size: 1.5vw;">Login</h4></div></a>
+                          -->
+                          <button href="#" class="buttonLogin">
+                             <?php
+                            if(!isset($_SESSION['Ulogin_user']))
+                                 echo "<span>Login</span>";
+                                else
+                                  echo "<span>Log out</span>";
+                                  ?>
+                            </button>
                         </div>
+
                     </div> 
               </div>
             </div> 
@@ -49,9 +90,13 @@
 
 <!--Beginning of navbar-->
       <div class="row">
-        <nav class = "navbar navbar-default navbar-full" role = "navigation">
+        <nav class = "navbar navbar-default" data-spy="affix" data-offset-top="203">
+        <div class="container-fluid">
             <div class = "navbar-header">
-                <button type="button" class = "navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">                               <span class = "sr-only">Toggle navigation</span>
+                 <a class = "navbar-brand" href="index.php"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
+                <button type="button" class = "navbar-toggle" data-toggle="collapse" data-target="#nav">             
+                    
+                    <span class = "sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -60,8 +105,8 @@
                 
             </div>
         
-            <div class = "navbar-collapse collapse custnav" id="nav" role="navigation">
-                <a class = "navbar-brand" href="index.php"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
+            <div class = "navbar-collapse collapse custnav" id="nav">
+               
                 <ul class = "nav navbar-nav">
                     <li class = "active"><a href = "index.php" class="button hvr-underline-reveal">Home</a></li>
                     <li><a href = "#" class="button hvr-underline-reveal">Deposits</a></li>
@@ -101,7 +146,11 @@
                 
 <!--                <p style="text-indent: 10em; padding-top: 15px; color: white;"><a href=Contact</p>-->
             </div>
+            </div>
           </nav>
     </div>
     </div>
+
 <!--Navigation bar end-->  
+</body>
+</html>
