@@ -10,3 +10,8 @@
 .links  > .panel:hover{
     box-shadow: #93ce33 2px 5px 5px 2px;
 }
+#anotherCarousel .carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+}
