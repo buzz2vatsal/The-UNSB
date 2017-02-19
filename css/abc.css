@@ -17,26 +17,18 @@ sup  {
   letter-spacing: 2px;
   text-align: center;
   color: #0C5;
-<<<<<<< HEAD
-  font-size: 24px;
-=======
-  margin-left: 70px;
-  font-size: 24px;
   font-family: "Nunito", sans-serif;
->>>>>>> 01cfb91435bf9538f7fcab6c2dbe3722863906f8
   font-weight: 300;
-  
-  /*margin: 5em auto;*/
+  padding: 20px;  /*margin: 5em auto;*/
   
   /*position: absolute; */
   /*top:0; right:0; bottom:0; left:0;*/
   
   padding: 20px 0;
-  width: 190px;
-  height: auto;
-
+  float: center;
   background: #a4c639;
   border: 1px solid green;
+  width:100%;
   color: #FFF;
   overflow: hidden;
   

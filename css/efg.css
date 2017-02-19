@@ -5,15 +5,15 @@
   top: 0;
   right: -18px;
   opacity: 0;
-  width: 10px;
-  height: 10px;
+  width: 100%;
+  height: auto;
   margin-top: -10px;
   font-family: "Raleway", sans-serif; font-size: 24px;
   background: rgba(0, 0, 0, 0);
   border: 3px solid #444;
   border-top: none;
   border-right: none;
-
+  
   transition: opacity 0.5s, top 0.5s, right 0.5s;
   transform: rotate(-45deg);
 }

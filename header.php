@@ -58,7 +58,7 @@ body {
     <div class="row">
           <div class = "intro-block">
               <div class="container">
-                    <div class = "row">
+                    
                         <div class = "col-xs-2" id="image">
                             <a href="index.php"><img class="img-responsive tpad" src="images/UNSB_Grey.png" style="height: inherit; width: inherit;" title="Home"></a>
                         </div>
@@ -68,24 +68,24 @@ body {
                             <p style="color: white; font-size: 1.2vw;text-align: left;" >Registration no.: XYZ123</p>
                         </div>
 
-                        <div class = "col-xs-3" style="padding-top: 25px;" >
+                        <div class = "col-xs-3" >
                           <!--  <a href="login.php"><div class="btn btn-block"><h4 style="color: black;font-size: 1.5vw;">Login</h4></div></a>
                           -->
 
                           <button href="login.php" class="buttonLogin">
                             
                              <?php
-                            if(!isset($_SESSION['Ulogin_user']))
-                                 echo "<span>Login</span>";
+                                 if(!isset($_SESSION['Ulogin_user']))
+                                 echo "<span style='font-size:1.4vw;'>Login</span>";
                                 else
-                                  echo "<span>Log out</span>";
+                                  echo "<span style='font-size:1.4vw;'>Log out</span>";
 
                                   ?>
-                            </button>
+                          </button>
                         </div>
 
                     </div> 
-              </div>
+            
             </div> 
     </div>
 
