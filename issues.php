@@ -85,8 +85,8 @@
                                         <h4>Name: <span id="tick_name"></span></h4>
                                         <h4>A/C No.: <span id="tick_ac"></span></h4>
                                         <h4>Date:<span id="tick_date"></span></h4>
-                                        <button class="btn btn-danger"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</button>
-                                        <button class="btn btn-success"><i class="fa fa-edit"></i>&nbsp;&nbsp;Reopen</button>
+                                        <button class="btn btn-danger"><i class="fa fa-reply"></i>&nbsp;&nbsp;Reply</button>
+                                        <button class="btn btn-success"><i class="fa fa-check"></i>&nbsp;&nbsp;Solved</button>
                                     </div>
                                 </td>
                                 
@@ -94,8 +94,8 @@
                                     <div class="resolved-panel panel-default">
                                         <h4>Ticket ID: <span id="tick_id_res"></span></h4>
                                         <h4>Resolved on:<span id="tick_date_res"></span></h4>
-                                        <button class="btn btn-danger"><i class="fa fa-reply"></i>&nbsp;&nbsp;Reply</button>
-                                        <button class="btn btn-success"><i class="fa fa-check"></i>&nbsp;&nbsp;Solved</button>
+                                        <button class="btn btn-danger"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</button>
+                                        <button class="btn btn-success"><i class="fa fa-edit"></i>&nbsp;&nbsp;Reopen</button>
                                     </div>
                                 </td>
                             </tr>
