@@ -11,6 +11,7 @@ html {
 body {
   margin: 0 auto;
   overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
 }
 
 .nopadding{
@@ -86,56 +87,77 @@ body {
     display: inline-block;
 }
 
-.activity .panel {
-    vertical-align: middle;
-    padding: 20px;   
-    margin-left: 10px;
-    color: white;
-    border: none;
-    box-shadow: rgba(0,0,0,0.4) 2px 2px 2px 2px;
+.nav .btn {
+    margin-left: 300px;
 }
 
-.activity .fa, .activity .caption{
-    color: white;
-    padding: 10px;
-    vertical-align: middle;
+.issue-table {
+    width: 80%;
+}
+
+.issue-table tr {
+    text-align: center;
+}
+
+.issue-table th, td{
+    border: 1px solid black;
+}
+
+.issue-table th{
+    background: #fff;
+    text-align: center;
+    color: #93ce33;
+    font-size: 1.4em;
+}
+
+.issue-table td {
+    background: #dedede;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.resolved-panel {
+    padding: 5px;
+    background: #fff;
+    width: 97%;
+    border-radius: 5px;
+    margin: 5px;
     display: inline-block;
 }
 
-.activity .comment{
-    background: #c0392b;
+.resolved-panel .btn {
+    float: right;
+    margin: 2px;
 }
 
-.activity .twitter{
-    background: #0084b4;
+.unresolved-panel {
+    padding: 5px;
+    background: #fff;
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
 }
 
-.activity .facebook{
-    background: #3b5998;
+.unresolved-panel .btn {
+    float: right;
+    margin: 2px;
 }
 
-.activity .eye{
-    background: #16a085;
+.cal-panel {
+    margin: 20px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 2px 4px 4px 4px rgba(0,0,0,0.4);
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
 }
 
-.activity .caption span{
-    font-size: 1.6em;
-}
-
-.activity .caption{
-    font-family: 'Raleway', sans-serif;    
-    font-size: 1.3em;
-    font-weight: 300;
-    position: absolute;
-    right: 20px;
-    bottom: 25px;
-    text-align: right;
-}
-
-.marquee-up{
-    background-color: #444; 
-    height: 350px; 
-    padding-top:0px; 
+.cal-panel:hover{
+    box-shadow: 2px 4px 4px 4px rgba(0,0,0,0.6);
 }
 
 #calendar{

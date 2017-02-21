@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>UNSB</title> 
+    <title>Issues</title> 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bank Website</title>
 
     <!-- Bootstrap -->
-    
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/admin-panel.css" rel="stylesheet">
+    <link href="css/issues.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">  
     <link href="css/bank_universal.css" rel="stylesheet">  
     <link href="css/font-awesome.min.css" rel="stylesheet">  
@@ -40,8 +38,8 @@
               
                       <div class="list-item">
                           <ul>
-                              <a href="#"><li class="active">Dashboard</li></a>
-                              <a href="issues.php"><li>Issues</li></a>
+                              <a href="admin-panel.php"><li>Dashboard</li></a>
+                              <a href="#"><li class="active">Issues</li></a>
                               <a href="#"><li>Cheque-book Requests</li></a>
                               <a href="#"><li>List of Unused Accounts (NPA)</li></a>
                               <a href="#"><li>Interest Rate Table</li></a>
@@ -62,6 +60,7 @@
                 <div class="nav">
                     <a href="index.php"><img class="img-responsive" src="images/UNSB_Grey.png"></a>
                     <h3>The Unava Nagrik Sahakari Bank Ltd.</h3>
+                    <button class="btn btn-primary">Refresh Data</button>
                     
                     <div id="calendar">
                         <p id="calendar-full-date"></p>
@@ -69,65 +68,55 @@
                     </div>
                 </div>
                 
-                <div class="row">
-                    <div class="activity">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="panel panel-default comment">
-                                        <i class="fa fa-comments fa-3x"></i>
-                                        <div class="caption"><span>59</span><br>Comments</div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-md-6">
-                                    <div class="panel panel-default twitter">
-                                        <i class="fa fa-twitter fa-3x"></i>
-                                        <div class="caption"><span>102</span><br>Tweets</div>
-                                    </div>
-                                </div>
-                            </div>
+                
+                
+                <div class="row table-row">
+                    <div class="container resolve-container">
+                        <table class="issue-table">
+                            <tr>
+                                <th>Unresolved</th>
+                                <th>Resolved</th>
+                            </tr>
                             
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="panel panel-default facebook">
-                                        <i class="fa fa-facebook fa-3x"></i>
-                                        <div class="caption">
-                                            Likes
-                                            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FWindows-10-News-148333451920206%2F&width=88&layout=button_count&height=21&appId" width="88" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-                                        </div>
-                                        
+                            <tr>
+                                <td>
+                                    <div class="unresolved-panel panel-default">
+                                        <h4>Ticket ID: <span id="tick_id"></span></h4>
+                                        <h4>Name: <span id="tick_name"></span></h4>
+                                        <h4>A/C No.: <span id="tick_ac"></span></h4>
+                                        <h4>Date:<span id="tick_date"></span></h4>
+                                        <button class="btn btn-danger"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</button>
+                                        <button class="btn btn-success"><i class="fa fa-edit"></i>&nbsp;&nbsp;Reopen</button>
                                     </div>
-                                </div>
+                                </td>
                                 
-                                <div class="col-md-6">
-                                    <div class="panel panel-default eye">
-                                        <i class="fa fa-eye fa-3x"></i>
-                                        <div class="caption"><span>20</span><br>Views</div>
+                                <td>
+                                    <div class="resolved-panel panel-default">
+                                        <h4>Ticket ID: <span id="tick_id_res"></span></h4>
+                                        <h4>Resolved on:<span id="tick_date_res"></span></h4>
+                                        <button class="btn btn-danger"><i class="fa fa-reply"></i>&nbsp;&nbsp;Reply</button>
+                                        <button class="btn btn-success"><i class="fa fa-check"></i>&nbsp;&nbsp;Solved</button>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-5" style="width: 48%;">
-                            <div class="marquee-up col-sm-12">
-                                <h3 style="color: white;"><span class="glyphicon glyphicon-th-list" style="font-size: 0.8em;"></span>&nbsp;Important Info</h3><hr>
-                                    <marquee direction="up" scrolldelay="80" onmouseover="this.stop();" onmouseout="this.start();" style="color: #93ce33; height: 220px;">
-                                        <h5><li>This text is a demo of marquee.</li><br>
-                                        <li>Hello there!</li><br>
-                                        <li>This is a demo</li><br>
-                                        <li>Lorem Ipsum, bro!</li><br>
-                                        <li>Why the hell Latin?!</li><br>
-                                        <li>Why couldn't they just use English!</li><br>
-                                        <li>Lorem Ipsum again!</li><br>
-                                        <li>Because why not?</li><br>
-                                        <li>Haha! LOL. -_-</li><br>
-                                        <li>Download form&nbsp;&raquo;&nbsp;<a href="login.php" style="color: #93ce33"><b>Click here</b></a></li><br></h5>
-                                    </marquee>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                
+<!--
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="panel panel-default cal-panel">
+                            <div id="calendar">
+                                <p id="calendar-day"></p>
+                                <p id="calendar-date"></p>
+                                <p id="calendar-month-year"></p>
                             </div>
                         </div>
                     </div>
                 </div>
+-->
 
             </div>
         </div>
