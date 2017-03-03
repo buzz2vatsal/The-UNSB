@@ -92,7 +92,11 @@ body {
 }
 
 .issue-table {
+<<<<<<< HEAD
     width: 70%;
+=======
+    width: 80%;
+>>>>>>> 7a2f7bc4f3aca76859154b85e21c6f8050e3d16a
 }
 
 .issue-table tr {

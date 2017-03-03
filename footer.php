@@ -22,7 +22,10 @@
                     </a>
                     
                     <div class="modal fade" id="fsc-modal" role="dialog">
-                        <div class="modal-dialog">
+
+                      
+
+                        <div class="modal-dialog" style="margin-top: 60px;">
                             
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -87,7 +90,7 @@
                 </div>
             
                 <div class=" col-md-2">
-                    <a href="#" >
+                    <a href="links.php" >
                         <div class="hbox box1">
                             <i class="fa fa-exclamation fa-4x" style="color: white;"></i>
                             <h4>Useful Links</h4>
@@ -201,7 +204,11 @@
                     </a>
                     
                     <div class="modal fade" id="developer-modal" role="dialog">
+
+                        <div class="modal-dialog" style="margin-top: 70px;">
+
                         <div class="modal-dialog">
+
                             
                             <div class="modal-content">
                                 <div class="modal-header" style="background: #000;">

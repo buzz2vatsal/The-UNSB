@@ -2,7 +2,7 @@ html, body{
     background-color: #EEEEEE;
 }
 
-h1, h2, h3, h4, h5, h6, li, a, btn, address, p ,.panel-group{
+h1, h2, h3, h4, h5, h6,ol, li, a, btn, address, p ,.panel-group{
     color: #93ce33;
     font-family: 'Raleway', sans-serif;
 }
@@ -312,4 +312,7 @@ ul a{
     margin-top: -20px;
     width: 100%;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 01cfb91435bf9538f7fcab6c2dbe3722863906f8
