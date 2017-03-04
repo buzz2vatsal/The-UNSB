@@ -35,7 +35,7 @@
         <div class="col-md-4" >
             <div class="panel panel-default">
                 <a href="industrialloan.php" onclick="return true">
-                <img class="img-responsive" src="images/s1.jpg">
+                <img class="img-responsive" style="height: 200px;" src="images/industrial loan.jpg">
                 <div class="caption">
                     <h4>Industrial Loan</h4>
                 </div>
@@ -47,7 +47,7 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <a href="hypothecationloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s2.jpg">
+                <img class="i4g-responsive" src="images/s2.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Hypothecation Loan</h4>
                 </div>
@@ -57,7 +57,7 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <a href="housingloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s3.jpg">
+                <img class="i4g-responsive" src="images/HOME-LOAN-IMAGES-2.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Housing Loan</h4>
                 </div>
@@ -73,7 +73,7 @@
        <div class="col-md-4 " >
             <div class="panel panel-default">
                 <a href="rbibondloan.php" onclick="return true">
-                <img class="img-responsive" src="images/s4.jpg">
+                <img class="img-responsive" src="images/rbi bond.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Loan against NSC/KVP/RBI BOND</h4>
                 </div>
@@ -85,7 +85,7 @@
         <div class="col-md-4 ">
             <div class="panel panel-default">
                 <a href="goldloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s1.jpg">
+                <img class="i4g-responsive" src="images/goldloan1.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Gold Loan</h4>
                 </div>
@@ -95,7 +95,7 @@
         <div class="col-md-4 ">
             <div class="panel panel-default">
                 <a href="vehicleloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s6.jpg">
+                <img class="i4g-responsive" src="images/vehicle loansto.png" style="height: 200px;">
                 <div class="caption">
                     <h4>Vehicle Loan</h4>
                 </div>
@@ -110,7 +110,7 @@
        <div class="col-md-4 " >
             <div class="panel panel-default">
                 <a href="cashcreditloan.php" onclick="return true">
-                <img class="img-responsive" src="images/s7.jpg">
+                <img class="img-responsive" src="images/cash credit.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Cash Credit Loan</h4>
                 </div>
@@ -122,7 +122,7 @@
         <div class="col-md-4 ">
             <div class="panel panel-default">
                 <a href="mortgage.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s8.jpg">
+                <img class="i4g-responsive" src="images/Fixed rate mortgage.jpeg" style="height: 200px;">
                 <div class="caption">
                     <h4>Fixed-Rate Mortgage Loan</h4>
                 </div>
@@ -132,7 +132,7 @@
         <div class="col-md-4 ">
             <div class="panel panel-default">
                 <a href="depositloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s9.jpg">
+                <img class="i4g-responsive" src="images/s9.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Loan against Fixed Deposit</h4>
                 </div>
@@ -147,7 +147,7 @@
        <div class="col-md-4 " >
             <div class="panel panel-default">
                 <a href="overdraftloan.php" onclick="return true">
-                <img class="img-responsive" src="images/s10.jpg">
+                <img class="img-responsive" src="images/loan against overdraft.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Loan against overdraft</h4>
                 </div>
@@ -159,7 +159,7 @@
         <div class="col-md-4 ">
             <div class="panel panel-default">
                 <a href="stockloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s1.jpg">
+                <img class="i4g-responsive" src="images/loan against stock in tradeve.jpg" style="height: 200px;"> 
                 <div class="caption">
                     <h4>Loan against Stock-in-trade</h4>
                 </div>
@@ -169,7 +169,7 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <a href="termloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s2.jpg">
+                <img class="i4g-responsive" src="images/fixed rate term.jpeg" style="height: 200px;">
                 <div class="caption">
                     <h4> Fixed Rate term Loan</h4>
                 </div>
