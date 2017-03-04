@@ -22,6 +22,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style type="text/css">
+      #myIssue{
+        color: black;
+      }
+    </style>
   </head>
   <body>
       
@@ -82,7 +87,7 @@
                                     <h4>Name: <span id="tick_name"></span></h4>
                                     <h4>A/C No.: <span id="tick_ac"></span></h4>
                                     <h4>Date:<span id="tick_date"></span></h4>
-                                    <button class="btn btn-danger"><i class="fa fa-reply"></i>&nbsp;&nbsp;Reply</button>
+                                    <button class="btn btn-danger" data-toggle="modal" data-target="#myIssue"><i class="fa fa-reply"></i>&nbsp;&nbsp;Reply</button>
                                     <button class="btn btn-success"><i class="fa fa-check"></i>&nbsp;&nbsp;Solved</button>
                                 </div>
                             </td>
@@ -93,13 +98,37 @@
                                     <h4>Resolved on:<span id="tick_date_res"></span></h4>
                                     <button class="btn btn-danger"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</button>
                                     <button class="btn btn-success"><i class="fa fa-edit"></i>&nbsp;&nbsp;Reopen</button>
-                                </div>
+                                </div >
                             </td>
                         </tr>
                     </table>
-                </div>
+                  </div>
+                  
+                  <div class="modal fade" id="myIssue" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title" style="text-align: center;">TICKET ID</h4>
+                        </div>
+                        <div class="modal-body" style="color: black;">
+                          <h5>Name:</h5>
+                          <h5>Account No.:</h5>
+                          <h5>Address:</h5>
+                          <h5>Contact No.:</h5>
+                          <h5>Issue:</h5><br><br>
+
+                          <h5>Subject:</h5>
+                          <h5>Answer</h5><textarea rows="10" cols="60"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-success" data-dismiss="modal">REPLY</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 
-                
+              
 <!--
                 <div class="row">
                     <div class="col-md-3">
@@ -114,10 +143,10 @@
                 </div>
 -->
 
-            </div>
+            
         </div>
       </div>
-    
+   
       
 <!--Download form end-->      
 
