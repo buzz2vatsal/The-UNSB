@@ -312,7 +312,78 @@ ul a{
     margin-top: -20px;
     width: 100%;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 01cfb91435bf9538f7fcab6c2dbe3722863906f8
+@media screen and (max-width: 767px) {
+    #name{
+        font-size: 15px;
+    }
+    #regno{
+        font-size: 10px;   
+    }
+    #buttonLogin{
+        font-size: 10px;
+    }
+    #email1{
+        font-size: 12px;
+    }
+    .tpad{
+        width: 90px;
+        height: 50px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #name{                                                                                                                                  
+        font-size: 18px;
+    }
+    #regno{
+        font-size: 15px;   
+    }
+    #buttonLogin{
+        font-size: 15px;
+    }
+    #email1{
+        font-size: 14px;
+    }
+    .tpad{
+        width: 110px;
+        height: 60px;
+    }
+}
+/* tablets/desktops and up ----------- */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+@media (min-width: 992px) and (max-width: 1199px) {
+    #name{
+        font-size: 20px;
+    }
+    #regno{
+        font-size: 15px;   
+    }
+    .buttonLogin{
+        font-size: 19px;
+    }
+    #email1{
+        font-size: 14px;
+    }
+    .tpad{
+        width: 130px;
+        height: 70px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    #name{
+        font-size: 25px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    }
+    #regno{
+        font-size: 20px;   
+    }
+    #buttonLogin{
+        font-size: 22px;
+    }
+    #email1{
+        font-size: 14px;
+    }
+    .tpad{
+        width: 130px;
+        height: 70px;
+    }
+}

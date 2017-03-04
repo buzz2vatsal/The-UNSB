@@ -36,12 +36,12 @@ body {
         <div class="row">
             <div class="col-md-1"></div>
             
-            <div class="col-md-5 col-sm-6">
-                    <h5 style="color: white; font-size: 14px;"><span class = "glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;<a href="tel: 02767-255900" style="color: white;font-size: 1.0vw">02767-255900</a>&nbsp;&nbsp;|&nbsp;
+            <div class="col-md-5 col-sm-6" id="email1" style="padding-top: 10px;">
+                    <p style="color: white;"><span class = "glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;<a href="tel: 02767-255900" style="color: white;">02767-255900</a>&nbsp;&nbsp;|&nbsp;
                     <!--</h5>
            
-                    <h5 style="color: white; font-size: 14px;">--><span class = "glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<a href = "mailto:nagrik_unava12@rediffmail.com" style="color: white;font-size: 1.0vw">nagrik_unava12@rediffmail.com</a><br>
-                    </h5>
+                    <h5 style="color: white; font-size: 14px;">--><span class = "glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<a href = "mailto:nagrik_unava12@rediffmail.com" style="color: white;">nagrik_unava12@rediffmail.com</a><br>
+                    </p>
             </div>
             
             
@@ -63,9 +63,9 @@ body {
                             <a href="index.php"><img class="img-responsive tpad" src="images/UNSB_Grey.png" style="height: inherit; width: inherit;" title="Home"></a>
                         </div>
 
-                        <div class = "col-xs-7" id="name">
-                            <p style="color: white;font-size:2.5vw; text-align: left;">The Unava Nagrik Sahakari Bank Ltd.</p>
-                            <p style="color: white; font-size: 1.2vw;text-align: left;" >Registration no.: XYZ123</p>
+                        <div class = "col-xs-7" >
+                            <p id="name" style="color: white; text-align: left;">The Unava Nagrik Sahakari Bank Ltd.</p>
+                            <p id="regno" style="color: white; text-align: left;" >Registration no.: XYZ123</p>
                         </div>
 
                         <div class = "col-xs-3" >
@@ -76,9 +76,9 @@ body {
                             
                              <?php
                                  if(!isset($_SESSION['Ulogin_user']))
-                                 echo "<span style='font-size:1.4vw;'>Login</span>";
+                                 echo "<span id='login'>Login</span>";
                                 else
-                                  echo "<span style='font-size:1.4vw;'>Log out</span>";
+                                  echo "<span id='login'>Log out</span>";
 
                                   ?>
                           </button>
