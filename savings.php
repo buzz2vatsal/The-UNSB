@@ -62,8 +62,8 @@
           <li>Proof of Residence such as Electricity Bill, Gas Bill, Telephone Bill of landline (BSNL), Municipal tax bill and receipt, LIC policy last premium paid notice and receipt – Any one of these to be obtained.</li>
           <li>If staying in rented premises than copy of rent agreement, or letter from society and copy of proof of resident from above.</li>
         </ul>
+        <p style="text-align: justify;"><strong>(B) Association of Persons like Association, Trust, Club, Society etc.</strong></p>
         <ul style="text-align: justify;">
-          <li>(B) Association of Persons like Association, Trust, Club, Society etc.</li>
           <li>Recent Photograph of all the office bearers with designation.</li>
           <li>Copy of Registration certificate of competent authority.</li>
           <li>Copy of Resolution for opening account with the Bank with a mandate for operation of account.</li>
@@ -72,7 +72,7 @@
           <li>Copy of PAN Card for society, Trust, Club etc. and proof of office of address.</li>
           <li>Name and address with proof for all the office bearers.</li>
         </ul>
-        <p style="text-align: justify;"><strong>Note : Original documents to be presented with copy for verification.</strong></p>
+        <p style="text-align: justify;padding-bottom: 30px;"><strong>Note : Original documents to be presented with copy for verification.</strong></p>
 
       </div>
 
