@@ -122,7 +122,7 @@
                 
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="myPanel panel-default">
-                         <a href="index.php"><img class="img-responsive tpad" title="Home" src="images/UNSB_White.png" style="width: 25%; height: 50%;"></a>
+                         <a href="index.php"><img class="img-responsive tpad" title="Home" src="images/UNSB_White.png" style="width: 30%;height: 10%"></a>
                         <address><br>
                             <h3><b>The Unava Nagarik Sahakari Bank Ltd.</b></h3>
                             Marketyard Compound,<br>At & Post :- Unava - 384160<br>
