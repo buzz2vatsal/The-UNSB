@@ -329,6 +329,12 @@ ul a{
         width: 90px;
         height: 50px;
     }
+    #login{
+        font-size: 10px;
+    }
+    #nav{
+        font-size: 8px;
+    }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -347,6 +353,12 @@ ul a{
     .tpad{
         width: 110px;
         height: 60px;
+    }
+    #login{
+        font-size: 15px;
+    }
+    #nav{
+        font-size: 10px;
     }
 }
 /* tablets/desktops and up ----------- */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
@@ -367,6 +379,12 @@ ul a{
         width: 130px;
         height: 70px;
     }
+    #login{
+        font-size: 20px;
+    }
+    #nav{
+        font-size: 15px;
+    }
 }
 /* large desktops and up ----------- */
 @media screen and (min-width: 1200px) {
@@ -385,5 +403,11 @@ ul a{
     .tpad{
         width: 130px;
         height: 70px;
+    }
+    #login{
+        font-size: 25px;
+    }
+    #nav{
+        font-size: 15px;
     }
 }

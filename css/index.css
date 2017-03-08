@@ -132,3 +132,26 @@
     font-size: 25px;
     letter-spacing: 5px;
 }
+@media screen and (max-width: 767px) {
+    .caption span.border{
+        font-size: 15px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .caption span.border{
+        font-size: 20px;
+    }
+}
+/* tablets/desktops and up ----------- */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+@media (min-width: 992px) and (max-width: 1199px) {
+    .caption span.border{
+        font-size: 25px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .caption span.border{
+        font-size: 30px;
+    }
+}
