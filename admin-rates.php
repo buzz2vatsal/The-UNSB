@@ -55,10 +55,9 @@
               </div>
          
        
-        
         <div class="col-md-9 nopadding">
             <div class="right-bar">
-                
+                <
                 <div class="nav">
                     <a href="index.php"><img class="img-responsive" src="images/UNSB_Grey.png"></a>
                     <h3>The Unava Nagrik Sahakari Bank Ltd.</h3>
@@ -68,10 +67,11 @@
                         <p id="calendar-time"></p>
                     </div>
                 </div>
-
+                </div>
 
                 <div class="container">
                   <p style="color: black;">Interest Rates</p>
+                <div class="row">
                   <table style="float: left;">
                     <tr>
                       <th>Loan</th>
@@ -98,6 +98,8 @@
                       <td><input type="text" name="overdraftrate"></td>
                     </tr>
                   </table>
+                  </div>
+                  <div class="row">
                   <table style="float: left;">
                     <tr>
                       <th>Type of loan</th>
@@ -156,7 +158,7 @@
                       <td><input type="text" name="termmtr"></td>
                     </tr>
                   </table>
-
+                  </div>
 
 
                   
@@ -167,7 +169,7 @@
             </div>
             <button type="button" class="btn-success" style="margin-top: 30px;float: left;">Submit</button>
         </div>
-
+</div>
       <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
