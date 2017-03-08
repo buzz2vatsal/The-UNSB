@@ -112,7 +112,13 @@ body {
                
                 <ul class = "nav navbar-nav">
                     <li class = "active"><a href = "index.php" class="button hvr-underline-reveal">Home</a></li>
-                    <li><a href = "#" class="button hvr-underline-reveal">Deposits</a></li>
+                    <li class="dropdown">
+                    <a href = "#" onclick="return false" class="dropdown-toggle hvr-underline-reveal" data-toggle = "dropdown">Deposits<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="savings.php" class="button hvr-underline-reveal">Savings account</a></li>
+                        <li><a href="current.php" class="button hvr-underline-reveal">Current account</a></li>
+                      </ul>
+                    </li>
                     <li><a href="services.php" class="button hvr-underline-reveal">Services</a></li>
                     <li><a href="rates.php" class="button hvr-underline-reveal">Interest Rates</a></li>
                     <li><a href="#" class="button hvr-underline-reveal">Downloads</a></li>
