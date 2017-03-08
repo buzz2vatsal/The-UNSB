@@ -124,8 +124,8 @@ body {
                                 <li><a href="bank-history.php" class="button hvr-underline-reveal">Bank History</a></li>
                                 <li><a href="vision.php" class="button hvr-underline-reveal">Vision &amp; Mission</a></li>
                                 <li><a href="chairman-msg.php" class="button hvr-underline-reveal">Chairman's message</a></li>
-                                <li><a href="#" class="button hvr-underline-reveal">Board of Directors</a></li>
-                                <li><a href="team.php" class="button hvr-underline-reveal">Current Team</a></li>
+                                <li><a href="team.php" class="button hvr-underline-reveal">Board of Directors</a></li>
+                                <li><a href="team.php" id="leader" class="button hvr-underline-reveal">Current Team</a></li>
                                 <li><a href="#" class="button hvr-underline-reveal">Progress at a Glance</a></li>
                                 <li><a href="award.php" class="button hvr-underline-reveal">Awards &amp; Recognition</a></li>
                                 
@@ -155,5 +155,11 @@ body {
     </div>
 
 <!--Navigation bar end-->  
+<script type="text/javascript">
+   // Javascript to enable link to tab
+        $(function () { var a = $('[href=' + location.hash + ']'); a && a.tab('show'); });
+        $('.nav a').on('shown', function (e) { window.location = "#leader"; })
+      </script>
+</script>
 </body>
 </html>

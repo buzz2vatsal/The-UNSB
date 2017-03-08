@@ -45,13 +45,14 @@
                           <ul>
                               <a href="admin-panel.php"><li>Dashboard</li></a>
                               <a href="#"><li class="active">Issues</li></a>
-                              <a href="#"><li>Cheque-book Requests</li></a>
+                              <a href="cheque.php"><li>Cheque-book Requests</li></a>
                               <a href="#"><li>List of Unused Accounts (NPA)</li></a>
                               <a href="#"><li>Interest Rate Table</li></a>
                               <a href="#"><li>Important Notice Upload</li></a>
                               <a href="#"><li>KYC Incomplete</li></a>
                               <a href="#"><li>Feedback</li></a>
-                              <a href="#"><li>Photo Management System (PMS)</li></a>  
+                              <a href="#"><li>Settings</li></a>
+                              <a href="#"><li>Logout</li></a>   
                           </ul>
                       </div>
                   </div>
