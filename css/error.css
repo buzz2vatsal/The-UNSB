@@ -1,0 +1,37 @@
+.page-error h1{
+	font-size: 140px;
+	line-height: 140px;
+	font-weight: normal;
+	font-family: 'Raleway',sans-serif;
+	color:#444;
+}
+.content_info{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+.paddings{
+	padding:60px;
+}
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.page-error{
+	max-width: 80%;
+	margin: 30px auto;
+	text-align: center;
+	position: relative;
+}
+.tall{
+	margin: 20px 0 30px 0;
+}
+.lead{
+	color: #777;
+	
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+}

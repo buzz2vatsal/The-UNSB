@@ -112,7 +112,13 @@ body {
 
                 <ul class = "nav navbar-nav">
                     <li class = "active"><a href = "index.php" class="button hvr-underline-reveal">Home</a></li>
-                    <li><a href = "#" class="button hvr-underline-reveal">Deposits</a></li>
+                    <li class="dropdown">
+                    <a href = "#" onclick="return false" class="dropdown-toggle hvr-underline-reveal" data-toggle = "dropdown">Deposits<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="savings.php" class="button hvr-underline-reveal">Savings account</a></li>
+                        <li><a href="current.php" class="button hvr-underline-reveal">Current account</a></li>
+                      </ul>
+                    </li>
                     <li><a href="services.php" class="button hvr-underline-reveal">Services</a></li>
                     <li><a href="rates.php" class="button hvr-underline-reveal">Interest Rates</a></li>
                     <li><a href="#" class="button hvr-underline-reveal">Downloads</a></li>
@@ -126,6 +132,8 @@ body {
                                 <li><a href="chairman-msg.php" class="button hvr-underline-reveal">Chairman's message</a></li>
                                 <li><a href="team.php#leader" class="button hvr-underline-reveal">Board of Directors</a></li>
                                 <li><a href="team.php" class="button hvr-underline-reveal">Current Team</a></li>
+                                <li><a href="team.php" class="button hvr-underline-reveal">Board of Directors</a></li>
+                                <li><a href="team.php" id="leader" class="button hvr-underline-reveal">Current Team</a></li>
                                 <li><a href="#" class="button hvr-underline-reveal">Progress at a Glance</a></li>
                                 <li><a href="award.php" class="button hvr-underline-reveal">Awards &amp; Recognition</a></li>
 
@@ -155,5 +163,13 @@ body {
     </div>
 
 <!--Navigation bar end-->
+=======
+<!--Navigation bar end-->  
+<script type="text/javascript">
+   // Javascript to enable link to tab
+        $(function () { var a = $('[href=' + location.hash + ']'); a && a.tab('show'); });
+        $('.nav a').on('shown', function (e) { window.location = "#leader"; })
+      </script>
+</script>
 </body>
 </html>

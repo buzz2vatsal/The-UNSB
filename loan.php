@@ -47,7 +47,7 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <a href="hypothecationloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s2.jpg" style="height: 200px;">
+                <img class="i4g-responsive" src="images/hypo.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Hypothecation Loan</h4>
                 </div>
@@ -132,7 +132,7 @@
         <div class="col-md-4 ">
             <div class="panel panel-default">
                 <a href="depositloan.php" onclick="return true">
-                <img class="i4g-responsive" src="images/s9.jpg" style="height: 200px;">
+                <img class="i4g-responsive" src="images/depositloan.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Loan against Fixed Deposit</h4>
                 </div>

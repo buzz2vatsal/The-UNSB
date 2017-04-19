@@ -37,7 +37,7 @@
         <div class="col-md-6 svc" data-toggle="modal" data-target="#RTGS-modal">
             <div class="panel panel-default">
                 <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s1.jpg">
+                <img class="img-responsive" src="images/NEFT-rtgs-imps1.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>NEFT/RTGS services</h4>
                 </div>
@@ -53,7 +53,7 @@
                     </div>
                     
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-rtgsneft.jpg" alt="RTGS photo"><br>
+                        <img class="img-responsive" src="images/NEFT-rtgs-imps1.jpg" alt="RTGS photo" style="height: 100px;"><br>
                         <p>Transfer your funds to anywhere in India. Beneficiary Accounts will get credit as per RTGS / NEFT settlement cycle (approx. 2 hours). You can transfer your funds more than Rs. 2 Lacs with Real Time Gross Settlement (RTGS).  There is not ceiling limit for NEFT.</p>
                         <p>You need to fill details of Beneficiary Bank like IFS Code, Beneficiary Account No., Beneficiary Name and Remittance Amount in RTGS/NEFT fund transfer form.</p>
                     </div>
@@ -69,7 +69,7 @@
         <div class="col-md-6 svc" data-toggle="modal" data-target="#deposit-modal">
             <div class="panel panel-default">
                 <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s2.jpg">
+                <img class="img-responsive" src="images/lockersbank.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>Safe Deposit Locker Facility</h4>
                 </div>
@@ -85,7 +85,7 @@
                     </div>
                     
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-locker.jpg"><br>
+                        <img class="img-responsive" src="images/lockersbank.jpg" style="height: 100px;"><br>
                         <p>Sarvodaya Bank provides Safe Deposit Locker facility to keep your valuables at a Safe & Secured Place. Various sizes of Lockers are available at following Branch location.</p><p>You can contact your nearest Bank Branch to avail this facility.</p><p>List Branches with Locker facility<li>Ved Road Branch</li><li>Athwalines Branch</li><li>Puna Kumbharia Road Branch</li><li>Bamroli Pandesara Branch</li><li>New Rander Road Branch</li></p><p>*Locker visit will be allowed during declared hours of business.</p>
                     </div>
                     
@@ -97,70 +97,6 @@
         </div>
     </div>
     
-    <div class="row"></div>
-    
-    <div class="service">
-        <div class="col-md-6 svc" data-toggle="modal" data-target="#DD-modal">
-            <div class="panel panel-default">
-                <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s3.jpg">
-                <div class="caption">
-                    <h4>DEMAND DRAFT & PAY ORDERS</h4>
-                </div>
-                </a>
-            </div>
-        </div>
-        
-        <div class="modal fade" id="DD-modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Demand Draft & Pay Orders</h3>
-                    </div>
-                    
-                    <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-demanddraft.jpg"><br>
-                        <p>A demand draft is more secure than a normal cheque as it can only be credited to a specific payee's account, and a customer can only be reimbursed on request under indemnity if the draft is lost or stolen.</p>
-                    </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Okay</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-6 svc" data-toggle="modal" data-target="#insurance-modal">
-            <div class="panel panel-default">
-                <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s4.jpg">
-                <div class="caption">
-                    <h4>GENERAL INSURANCE</h4>
-                </div>
-                </a>
-            </div>
-        </div>
-        
-        <div class="modal fade" id="insurance-modal" role="dialog">
-            <div class="modal-dialog">
-                
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>General Insurance</h3>
-                    </div>
-                    
-                    <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-generalinsurance.jpg"><br>
-                        <p>UNSB provides various General insurance services.</p><p>For more details contact your nearest Branch.</p>
-                    </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Okay</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     
     <div class="row"></div>
     
@@ -168,9 +104,9 @@
         <div class="col-md-6 svc" data-toggle="modal" data-target="#ATM-modal">
             <div class="panel panel-default">
                 <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s5.png">
+                <img class="img-responsive" src="images/bank statements online.jpg" style="height: 200px;">
                 <div class="caption">
-                    <h4>ATM SERVICES</h4>
+                    <h4>BANK STATEMENT</h4>
                 </div>
                 </a>
             </div>
@@ -180,11 +116,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3>ATM Services</h3>
+                        <h3>Bank Statement</h3>
                     </div>
                     
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-atm.jpg"><br>
+                        <img class="img-responsive" src="images/bank statements online.jpg" style="height: 100px;"><br>
                         <p>You can avail this facility, if you are having Savings, Current  account with us.<br>
                             <li>You do not need to spend time waiting in queues at the branch to perform your transactions. ATM provides you with the option of banking instantly for various transactions, here are some of the ways it will benefit you:</li>
                             
@@ -221,7 +157,7 @@
         <div class="col-md-6 svc" data-toggle="modal" data-target="#SMS-modal">
             <div class="panel panel-default">
                 <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s6.jpg">
+                <img class="img-responsive" src="images/text message services.jpg" style="height: 200px;">
                 <div class="caption">
                     <h4>SMS ALERTS</h4>
                 </div>
@@ -237,7 +173,7 @@
                     </div>
                     
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-smsbanking.jpg"><br>
+                        <img class="img-responsive" src="images/text message services.jpg" style="height: 100px;"><br>
                         <p>Register your account for SMS Alerts. You can get your accounts Balance information on your mobile. You can also get last 5 transactions of your accounts.<br>Simply Type following message on your registered mobile & send it on 8758333922</p>
                         
                         <table id="SMS-tab">
@@ -270,148 +206,7 @@
     
     <div class="row"></div>
     
-    <div class="service">
-        <div class="col-md-6 svc" data-toggle="modal" data-target="#Kiosk-modal">
-            <div class="panel panel-default">
-                <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s7.jpg">
-                <div class="caption">
-                    <h4>KIOSK (VIEW ACCOUNT TERMINAL)</h4>
-                </div>
-                </a>
-            </div>
-        </div>
-        
-        <div class="modal fade" id="Kiosk-modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>KIOSK (View Account Terminal</h3>
-                    </div>
-                    
-                    <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-kiosk.jpg"><br>
-                        <p>Registered customers will get ID & Password to avail this facility.<br>
-                            Customers get all information related with their accounts like Statement of accounts, Balance inquiry etc. on this self service terminal (KIOSK)</p>
-                    </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Okay</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-6 svc" data-toggle="modal" data-target="#state-modal">
-            <div class="panel panel-default">
-                <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s8.jpg">
-                <div class="caption">
-                    <h4>STATEMENT ON WEB</h4>
-                </div>
-                </a>
-            </div>
-        </div>
-        
-        <div class="modal fade" id="state-modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Statement on Web</h3>
-                    </div>
-                    
-                    <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-statementonweb.jpg"><br>
-                        <p>Register your account & view your statement online anywhere. You can also store these E-statements for your records.
-                            <li>With instant access, view your latest accounts transactions anytime at your convenience</li>
-                            <li>No more worries about lost or delayed statements;</li>
-                            <li>Participate in environmental change; reduce paper consumption when you opt for e-statements.</li><br>
-                            <strong>This service is available to you absolutely FREE</strong></p>
-                    </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Okay</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     
-    <div class="row"></div>
-    
-    <div class="service">
-        <div class="col-md-6 svc" data-toggle="modal" data-target="#stamp-modal">
-            <div class="panel panel-default">
-                <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s9.jpg">
-                <div class="caption">
-                    <h4>STAMP FRANKING</h4>
-                </div>
-                </a>
-            </div>
-        </div>
-        
-        <div class="modal fade" id="stamp-modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Stamp Franking</h3>
-                    </div>
-                    
-                    <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-stampfranking.jpg"><br>
-                        <p>Sarvodaya Bank provides Government authorized Stamp Franking Services. </p>
-                        <p>This facility is available at our branch : </p>
-                        <address><br>
-                            <h3><b>The Unava Nagarik Sahakari Bank Ltd.</b></h3>
-                            Marketyard Compound,<br>
-                            At & Post :- Unava - 384160<br>
-                            Ta-Unjha Dist-Mehsana (N. Guj)<br><br>
-                            <b>Contact: </b>(O) <a href="tel: 02767-255900" title="Call office">02767-255900</a>, <a href="tel: 02767-258976" title="Call office">258976</a><br>
-                            <b>M. No.: </b><a href="tel: 9879246694" title="Call mobile">9879246694</a><br>
-                            <b>Fax :-</b>02767-258976<br>
-                            <b>Email: </b><a href="mailto: nagrik_unava12@rediffmail.com" title="Send direct mail">nagrik_unava12@rediffmail.com</a>
-                        </address><br>
-                    </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Okay</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-6 svc" data-toggle="modal" data-target="#tax-modal">
-            <div class="panel panel-default">
-                <a href="#" onclick="return false">
-                <img class="img-responsive" src="images/s10.jpg">
-                <div class="caption">
-                    <h4>E - PAYMENT OF TAXES</h4>
-                </div>
-                </a>
-            </div>
-        </div>
-        
-        <div class="modal fade" id="tax-modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>E-Payment of Taxes</h3>
-                    </div>
-                    
-                    <div class="modal-body">
-                        <img class="img-responsive" src="http://www.sarvodayabank.com/upload/services/service-epaymentoftaxes.jpg"><br>
-                        <p>Sarvodaya Bank provides facility to pay TDS, Self Assessment Tax, Advance Tax, Service Tax etc. <br>
-                            You can avail this facility at any of our Branch.</p>
-                    </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Okay</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
       
 </div>      
 <!--End of services bar-->
