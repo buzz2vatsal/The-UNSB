@@ -4,7 +4,7 @@
 <head>
 <style type="text/css">
 body {
-      position: relative; 
+      position: relative;
   }
   .affix {
       top:0;
@@ -22,7 +22,7 @@ body {
   </style>
   <link href="css/abc.css" rel="stylesheet">
     <?php
-    if(isset($_SESSION['Ulogin_user'])){ 
+    if(isset($_SESSION['Ulogin_user'])){
      echo "<link href=\"css\efg.css\" rel=\"stylesheet\">";
   }
     ?>
@@ -31,34 +31,34 @@ body {
 
 
 
-<!--beginning of top strip-->      
+<!--beginning of top strip-->
       <div class="container" style="background-color: #444; width: auto; height: 35px;">
         <div class="row">
             <div class="col-md-1"></div>
-            
+
             <div class="col-md-5 col-sm-6" id="email1" style="padding-top: 10px;">
                     <p style="color: white;"><span class = "glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;<a href="tel: 02767-255900" style="color: white;">02767-255900</a>&nbsp;&nbsp;|&nbsp;
                     <!--</h5>
-           
+
                     <h5 style="color: white; font-size: 14px;">--><span class = "glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<a href = "mailto:nagrik_unava12@rediffmail.com" style="color: white;">nagrik_unava12@rediffmail.com</a><br>
                     </p>
             </div>
-            
-            
-            
+
+
+
         </div>
       </div>
 
 <!--End of top strip-->
-      
-      
+
+
 <!--Start of intro block-->
-      
+
 <div class="container-fluid" style="width: 90%; background-color: white; margin-bottom:20px; box-shadow:rgba(0,0,0,0.3) 2px 4px 4px 4px">
     <div class="row">
           <div class = "intro-block">
               <div class="container">
-                    
+
                         <div class = "col-xs-2" id="image">
                             <a href="index.php"><img class="img-responsive tpad" src="images/UNSB_Grey.png" style="height: inherit; width: inherit;" title="Home"></a>
                         </div>
@@ -73,7 +73,7 @@ body {
                           -->
 
                           <button href="login.php" class="buttonLogin">
-                            
+
                              <?php
                                  if(!isset($_SESSION['Ulogin_user']))
                                  echo "<span id='login'>Login</span>";
@@ -84,9 +84,9 @@ body {
                           </button>
                         </div>
 
-                    </div> 
-            
-            </div> 
+                    </div>
+
+            </div>
     </div>
 
 <!--End Intro-->
@@ -97,19 +97,19 @@ body {
         <div class="container-fluid">
             <div class = "navbar-header">
                  <a class = "navbar-brand" href="index.php"><img class = "logo" src = "images/UNSB_White.png" title="Home"></a>
-                <button type="button" class = "navbar-toggle" data-toggle="collapse" data-target="#nav">             
-                    
+                <button type="button" class = "navbar-toggle" data-toggle="collapse" data-target="#nav">
+
                     <span class = "sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
-                
+
+
             </div>
-        
+
             <div class = "navbar-collapse collapse custnav" id="nav">
-               
+
                 <ul class = "nav navbar-nav">
                     <li class = "active"><a href = "index.php" class="button hvr-underline-reveal">Home</a></li>
                     <li><a href = "#" class="button hvr-underline-reveal">Deposits</a></li>
@@ -124,14 +124,14 @@ body {
                                 <li><a href="bank-history.php" class="button hvr-underline-reveal">Bank History</a></li>
                                 <li><a href="vision.php" class="button hvr-underline-reveal">Vision &amp; Mission</a></li>
                                 <li><a href="chairman-msg.php" class="button hvr-underline-reveal">Chairman's message</a></li>
-                                <li><a href="#" class="button hvr-underline-reveal">Board of Directors</a></li>
+                                <li><a href="team.php#leader" class="button hvr-underline-reveal">Board of Directors</a></li>
                                 <li><a href="team.php" class="button hvr-underline-reveal">Current Team</a></li>
                                 <li><a href="#" class="button hvr-underline-reveal">Progress at a Glance</a></li>
                                 <li><a href="award.php" class="button hvr-underline-reveal">Awards &amp; Recognition</a></li>
-                                
+
                             </ul>
                     </li>
-                    
+
                     <li class="dropdown">
                     <a href = "#" onclick="return false" class = "dropdown-toggle hvr-underline-reveal" data-toggle = "dropdown">Customer Care<b class = "caret"></b></a>
                             <ul class = "dropdown-menu">
@@ -144,9 +144,9 @@ body {
                                 <li><a href="#" class="button hvr-underline-reveal">Feedback</a></li>
                             </ul>
                     </li>
-                    
+
                 </ul>
-                
+
 <!--                <p style="text-indent: 10em; padding-top: 15px; color: white;"><a href=Contact</p>-->
             </div>
             </div>
@@ -154,6 +154,6 @@ body {
     </div>
     </div>
 
-<!--Navigation bar end-->  
+<!--Navigation bar end-->
 </body>
 </html>
