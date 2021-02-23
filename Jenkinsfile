@@ -10,6 +10,10 @@ pipeline {
                     ls -lah
                 '''
             }
+        stage('Test') {
+            steps {
+                sh 'python --version'
+            }
         }
     }
 }
